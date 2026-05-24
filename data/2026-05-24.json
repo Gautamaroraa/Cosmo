@@ -1,7 +1,7 @@
 {
   "meta": {
     "date": "2026-05-24",
-    "generated_at": "2026-05-24T09:46:03Z",
+    "generated_at": "2026-05-24T09:55:26Z",
     "version": "1.0"
   },
   "summary": {
@@ -114,87 +114,87 @@
     ],
     "planets": {
       "Sun": {
-        "longitude": 39.0263,
+        "longitude": 39.0324,
         "rashi": "Taurus",
         "rashi_lord": "Venus",
-        "degrees_in_rashi": 9.0263,
+        "degrees_in_rashi": 9.0324,
         "nakshatra": "Krittika",
         "nakshatra_pada": 4,
         "nakshatra_lord": "Sun",
         "retrograde": false,
-        "speed": 0.961019
+        "speed": 0.961016
       },
       "Moon": {
-        "longitude": 140.4554,
+        "longitude": 140.5375,
         "rashi": "Leo",
         "rashi_lord": "Sun",
-        "degrees_in_rashi": 20.4554,
+        "degrees_in_rashi": 20.5375,
         "nakshatra": "Purva Phalguni",
         "nakshatra_pada": 3,
         "nakshatra_lord": "Venus",
         "retrograde": false,
-        "speed": 12.944693
+        "speed": 12.942619
       },
       "Mars": {
-        "longitude": 9.8808,
+        "longitude": 9.8855,
         "rashi": "Aries",
         "rashi_lord": "Mars",
-        "degrees_in_rashi": 9.8808,
+        "degrees_in_rashi": 9.8855,
         "nakshatra": "Ashwini",
         "nakshatra_pada": 3,
         "nakshatra_lord": "Ketu",
         "retrograde": false,
-        "speed": 0.747909
+        "speed": 0.747903
       },
       "Mercury": {
-        "longitude": 50.6072,
+        "longitude": 50.6201,
         "rashi": "Taurus",
         "rashi_lord": "Venus",
-        "degrees_in_rashi": 20.6072,
+        "degrees_in_rashi": 20.6201,
         "nakshatra": "Rohini",
         "nakshatra_pada": 4,
         "nakshatra_lord": "Moon",
         "retrograde": false,
-        "speed": 2.03743
+        "speed": 2.037212
       },
       "Jupiter": {
-        "longitude": 88.4447,
+        "longitude": 88.4459,
         "rashi": "Gemini",
         "rashi_lord": "Mercury",
-        "degrees_in_rashi": 28.4447,
+        "degrees_in_rashi": 28.4459,
         "nakshatra": "Punarvasu",
         "nakshatra_pada": 3,
         "nakshatra_lord": "Jupiter",
         "retrograde": false,
-        "speed": 0.179044
+        "speed": 0.179052
       },
       "Venus": {
-        "longitude": 72.1685,
+        "longitude": 72.1761,
         "rashi": "Gemini",
         "rashi_lord": "Mercury",
-        "degrees_in_rashi": 12.1685,
+        "degrees_in_rashi": 12.1761,
         "nakshatra": "Ardra",
         "nakshatra_pada": 2,
         "nakshatra_lord": "Rahu",
         "retrograde": false,
-        "speed": 1.18973
+        "speed": 1.189723
       },
       "Saturn": {
-        "longitude": 347.3454,
+        "longitude": 347.346,
         "rashi": "Pisces",
         "rashi_lord": "Jupiter",
-        "degrees_in_rashi": 17.3454,
+        "degrees_in_rashi": 17.346,
         "nakshatra": "Revati",
         "nakshatra_pada": 1,
         "nakshatra_lord": "Mercury",
         "retrograde": false,
-        "speed": 0.092785
+        "speed": 0.092778
       },
       "Rahu": {
-        "longitude": 310.3513,
+        "longitude": 310.351,
         "rashi": "Aquarius",
         "rashi_lord": "Saturn",
-        "degrees_in_rashi": 10.3513,
+        "degrees_in_rashi": 10.351,
         "nakshatra": "Shatabhisha",
         "nakshatra_pada": 2,
         "nakshatra_lord": "Rahu",
@@ -202,10 +202,10 @@
         "speed": -0.052973
       },
       "Ketu": {
-        "longitude": 130.3513,
+        "longitude": 130.351,
         "rashi": "Leo",
         "rashi_lord": "Sun",
-        "degrees_in_rashi": 10.3513,
+        "degrees_in_rashi": 10.351,
         "nakshatra": "Magha",
         "nakshatra_pada": 4,
         "nakshatra_lord": "Ketu",
@@ -229,7 +229,7 @@
           "Ketu"
         ],
         "aspect": "Square",
-        "orb": 1.33
+        "orb": 1.32
       },
       {
         "planets": [
@@ -237,7 +237,7 @@
           "Mercury"
         ],
         "aspect": "Square",
-        "orb": 0.15
+        "orb": 0.08
       },
       {
         "planets": [
@@ -245,7 +245,7 @@
           "Jupiter"
         ],
         "aspect": "Sextile",
-        "orb": 7.99
+        "orb": 7.91
       },
       {
         "planets": [
@@ -277,7 +277,7 @@
           "Saturn"
         ],
         "aspect": "Sextile",
-        "orb": 3.26
+        "orb": 3.27
       },
       {
         "planets": [
@@ -285,7 +285,7 @@
           "Saturn"
         ],
         "aspect": "Square",
-        "orb": 5.18
+        "orb": 5.17
       },
       {
         "planets": [
@@ -293,7 +293,7 @@
           "Rahu"
         ],
         "aspect": "Trine",
-        "orb": 1.82
+        "orb": 1.83
       },
       {
         "planets": [
@@ -301,7 +301,7 @@
           "Ketu"
         ],
         "aspect": "Sextile",
-        "orb": 1.82
+        "orb": 1.83
       },
       {
         "planets": [
@@ -2040,12 +2040,59 @@
       ]
     },
     "sector_astro_bias": {
+      "Finance": {
+        "astro_score": -21,
+        "bias": "Bearish",
+        "notes": [
+          "Jupiter Weak in Gemini",
+          "Rahu Retrograde-Weak in Aquarius"
+        ]
+      },
       "Metals": {
         "astro_score": 9,
         "bias": "Neutral",
         "notes": [
           "Mars Strong in Aries",
           "Ketu Retrograde-Weak in Leo"
+        ]
+      },
+      "Auto": {
+        "astro_score": 17,
+        "bias": "Bullish",
+        "notes": [
+          "Mars Strong in Aries"
+        ]
+      },
+      "FMCG": {
+        "astro_score": -5,
+        "bias": "Neutral",
+        "notes": [
+          "Jupiter Weak in Gemini"
+        ]
+      },
+      "Banking": {
+        "astro_score": -5,
+        "bias": "Neutral",
+        "notes": [
+          "Jupiter Weak in Gemini"
+        ]
+      },
+      "Pharma": {
+        "astro_score": -21,
+        "bias": "Bearish",
+        "notes": [
+          "Jupiter Weak in Gemini",
+          "Rahu Retrograde-Weak in Aquarius",
+          "Ketu Retrograde-Weak in Leo"
+        ]
+      },
+      "Energy": {
+        "astro_score": 17,
+        "bias": "Bullish",
+        "notes": [
+          "Mars Strong in Aries",
+          "Ketu Retrograde-Weak in Leo",
+          "Day of Sun favors Energy"
         ]
       },
       "Consumer": {
@@ -2066,53 +2113,6 @@
         "bias": "Bearish",
         "notes": [
           "Rahu Retrograde-Weak in Aquarius"
-        ]
-      },
-      "Pharma": {
-        "astro_score": -21,
-        "bias": "Bearish",
-        "notes": [
-          "Jupiter Weak in Gemini",
-          "Rahu Retrograde-Weak in Aquarius",
-          "Ketu Retrograde-Weak in Leo"
-        ]
-      },
-      "FMCG": {
-        "astro_score": -5,
-        "bias": "Neutral",
-        "notes": [
-          "Jupiter Weak in Gemini"
-        ]
-      },
-      "Finance": {
-        "astro_score": -21,
-        "bias": "Bearish",
-        "notes": [
-          "Jupiter Weak in Gemini",
-          "Rahu Retrograde-Weak in Aquarius"
-        ]
-      },
-      "Banking": {
-        "astro_score": -5,
-        "bias": "Neutral",
-        "notes": [
-          "Jupiter Weak in Gemini"
-        ]
-      },
-      "Energy": {
-        "astro_score": 17,
-        "bias": "Bullish",
-        "notes": [
-          "Mars Strong in Aries",
-          "Ketu Retrograde-Weak in Leo",
-          "Day of Sun favors Energy"
-        ]
-      },
-      "Auto": {
-        "astro_score": 17,
-        "bias": "Bullish",
-        "notes": [
-          "Mars Strong in Aries"
         ]
       }
     }
