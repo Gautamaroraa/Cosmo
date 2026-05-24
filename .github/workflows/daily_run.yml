@@ -1,15 +1,15 @@
-name: Cosmo Daily Engine
+name: Cosmo Crypto Daily Engine
 
 on:
   schedule:
-    - cron: '0 3 * * 1-5'
+    - cron: '0 */4 * * *'
   workflow_dispatch:
 
 permissions:
   contents: write
 
 jobs:
-  run-cosmo:
+  run-cosmo-crypto:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
@@ -21,33 +21,36 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install pyswisseph yfinance pandas requests nsepython
+        run: pip install pyswisseph requests pandas
 
-      - name: Run Cosmo Engine
-        run: python engine/scoring_engine.py
-
-      - name: Run History Engine
-        run: python engine/history_engine.py
-
-      - name: Run Pattern Engine
-        run: python engine/pattern_engine.py
-
-      - name: Run Confidence Engine
-        run: python engine/confidence_engine.py
-
-      - name: Run Anomaly Engine
-        run: python engine/anomaly_engine.py
+      - name: Run Cosmo Crypto Engine
+        run: python engine/crypto_scoring_engine.py
 
       - name: Run F&O Engine
-        run: python engine/fno_engine.py || echo "F&O fetch failed — skipping"
+        run: python engine/crypto_fno_engine.py || echo "F&O fetch failed — skipping"
+
+      - name: Run History Engine
+        run: python engine/history_engine.py || echo "History engine skipped"
+
+      - name: Run Pattern Engine
+        run: python engine/pattern_engine.py || echo "Pattern engine skipped"
+
+      - name: Run Confidence Engine
+        run: python engine/confidence_engine.py || echo "Confidence engine skipped"
+
+      - name: Run Anomaly Engine
+        run: python engine/anomaly_engine.py || echo "Anomaly engine skipped"
+
+      - name: Run Strategy Engine
+        run: python engine/crypto_strategy_engine.py || echo "Strategy engine skipped"
 
       - name: Copy latest.json to root
         run: cp data/latest.json latest.json
 
       - name: Commit output
         run: |
-          git config user.name "Cosmo Bot"
-          git config user.email "cosmo@github-actions"
+          git config user.name "Cosmo Crypto Bot"
+          git config user.email "cosmo-crypto@github-actions"
           git add data/ latest.json
-          git diff --staged --quiet || git commit -m "🪐 Cosmo update: $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git diff --staged --quiet || git commit -m "🪐 Cosmo Crypto update: $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
