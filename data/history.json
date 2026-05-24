@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated_at": "2026-05-24T09:55:26Z",
+    "generated_at": "2026-05-24T10:04:44Z",
     "total_days": 2,
     "version": "1.0"
   },
@@ -26,7 +26,7 @@
       "medium": 0.0,
       "low": null
     },
-    "generated_at": "2026-05-24T09:55:26Z"
+    "generated_at": "2026-05-24T10:04:44Z"
   },
   "anomalies": [],
   "history": [
@@ -428,7 +428,7 @@
             "Rahu"
           ],
           "aspect": "Square",
-          "orb": 1.32
+          "orb": 1.31
         },
         {
           "planets": [
@@ -436,7 +436,7 @@
             "Ketu"
           ],
           "aspect": "Square",
-          "orb": 1.32
+          "orb": 1.31
         },
         {
           "planets": [
@@ -444,7 +444,7 @@
             "Mercury"
           ],
           "aspect": "Square",
-          "orb": 0.08
+          "orb": 0.01
         },
         {
           "planets": [
@@ -452,7 +452,7 @@
             "Jupiter"
           ],
           "aspect": "Sextile",
-          "orb": 7.91
+          "orb": 7.82
         },
         {
           "planets": [
@@ -468,7 +468,7 @@
             "Rahu"
           ],
           "aspect": "Sextile",
-          "orb": 0.47
+          "orb": 0.46
         },
         {
           "planets": [
@@ -476,7 +476,7 @@
             "Ketu"
           ],
           "aspect": "Trine",
-          "orb": 0.47
+          "orb": 0.46
         },
         {
           "planets": [
@@ -484,7 +484,7 @@
             "Saturn"
           ],
           "aspect": "Sextile",
-          "orb": 3.27
+          "orb": 3.29
         },
         {
           "planets": [
@@ -492,7 +492,7 @@
             "Saturn"
           ],
           "aspect": "Square",
-          "orb": 5.17
+          "orb": 5.16
         },
         {
           "planets": [

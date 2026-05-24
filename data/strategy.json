@@ -1,0 +1,58 @@
+{
+  "meta": {
+    "date": "2026-05-24",
+    "generated_at": "2026-05-24T10:04:48Z",
+    "market": "Indian Stocks F&O"
+  },
+  "trend_summary": "Market is Neutral with Low volatility. 44 stocks advancing vs 34 declining. Strongest sector: Infra. Weakest: IT. Moon is First Quarter \u2014 bullish energy. Today is ruled by Sun. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
+  "recommendation": "MOMENTUM BULLISH",
+  "rec_reason": "Confidence 40/100 \u2014 NIFTY CE (Buy)",
+  "no_trade_reasons": [],
+  "setups": [
+    {
+      "type": "MOMENTUM",
+      "direction": "BULLISH",
+      "instrument": "NIFTY CE (Buy)",
+      "index": "NIFTY",
+      "entry": "Buy NIFTY CE \u2014 ATM or ATM+1 strike",
+      "stop_loss": "SL: Close below nearest support",
+      "target": "Target: 1.5x risk",
+      "confidence": 40,
+      "expiry_note": "Use weekly expiry. Exit if momentum fades.",
+      "reasons": [
+        "First Quarter \u2014 bullish moon phase",
+        "Astro score 68/100 \u2014 favorable sky",
+        "RSI 57.1 \u2014 healthy momentum zone"
+      ],
+      "warning": ""
+    }
+  ],
+  "technicals": {
+    "nifty": {
+      "value": 23719.3,
+      "change": 64.6,
+      "change_pct": 0.27,
+      "direction": "up"
+    },
+    "banknifty": {
+      "value": 54055.35,
+      "change": 615.95,
+      "change_pct": 1.15,
+      "direction": "up"
+    },
+    "avg_rsi": 57.1,
+    "breadth_pct": 56.4,
+    "direction": "Neutral",
+    "volatility": "Low"
+  },
+  "astro_summary": {
+    "moon_phase": "First Quarter",
+    "moon_bias": "bullish",
+    "day_ruler": "Sun",
+    "astro_score": 68,
+    "retrograde_planets": [
+      "Rahu",
+      "Ketu"
+    ]
+  }
+}
