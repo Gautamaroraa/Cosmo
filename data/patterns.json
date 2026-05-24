@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-05-23",
-    "generated_at": "2026-05-23T14:18:01Z"
+    "date": "2026-05-24",
+    "generated_at": "2026-05-24T09:46:04Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -17,31 +17,69 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "First Quarter",
-    "moon_nakshatra": "Magha",
-    "day_ruler": "Saturn",
+    "moon_nakshatra": "Purva Phalguni",
+    "day_ruler": "Sun",
     "market_direction": "Neutral",
     "volatility_bias": "Low",
-    "strongest_sector": "Metals",
+    "strongest_sector": "Infra",
     "cosmo_score_bucket": "medium",
     "breadth_bucket": "neutral"
   },
-  "similar_days_found": 1,
+  "similar_days_found": 2,
   "patterns": {
-    "status": "no_outcomes_yet",
-    "similar_days_found": 1,
-    "message": "Similar days found but outcomes not yet available. Check back tomorrow."
+    "status": "calculated",
+    "similar_days_found": 2,
+    "days_with_outcomes": 1,
+    "overall_accuracy_pct": 0.0,
+    "avg_stock_change_pct": 0.0,
+    "direction_pattern": {
+      "bullish": 0,
+      "bearish": 0,
+      "neutral": 1,
+      "dominant": "Neutral"
+    },
+    "top_sectors_on_similar_days": [
+      {
+        "name": "Metals",
+        "avg_score": 56.2
+      },
+      {
+        "name": "Infra",
+        "avg_score": 54.7
+      },
+      {
+        "name": "Banking",
+        "avg_score": 53.5
+      },
+      {
+        "name": "Finance",
+        "avg_score": 52.3
+      },
+      {
+        "name": "Energy",
+        "avg_score": 48.8
+      }
+    ],
+    "recurring_stocks": [],
+    "moon_phase_pattern": {
+      "First Quarter": 1
+    }
   },
   "narratives": [
-    "Building pattern memory \u2014 more data needed."
+    "On 2 similar sky conditions in history, Cosmo's top stock calls were correct 0.0% of the time.",
+    "Market was Neutral on most similar past days (0B / 0Bear / 1N).",
+    "Strongest sectors on similar days: Metals, Infra, Banking.",
+    "Top flagged stocks lost an average of 0.0% next day on similar conditions.",
+    "Mars in Aries + Day of Sun is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-05-23",
+      "date": "2026-05-24",
       "similarity_pct": 100.0,
-      "cosmo_score": 62.1,
+      "cosmo_score": 62.0,
       "moon_phase": "First Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Metals",
+      "day_ruler": "Sun",
+      "strongest_sector": "Infra",
       "market_direction": "Neutral",
       "outcome_accuracy": null,
       "explanation": {
@@ -54,6 +92,29 @@
           "Moon phase First Quarter"
         ],
         "different": []
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "similarity_pct": 89.3,
+      "cosmo_score": 62.1,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Metals",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 0.0,
+      "explanation": {
+        "similarity_pct": 89.3,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase First Quarter"
+        ],
+        "different": [
+          "Day ruler: Saturn \u2192 now Sun"
+        ]
       }
     }
   ]

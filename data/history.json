@@ -1,28 +1,32 @@
 {
   "meta": {
-    "generated_at": "2026-05-23T14:18:01Z",
-    "total_days": 1,
+    "generated_at": "2026-05-24T09:46:04Z",
+    "total_days": 2,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 1,
-    "days_with_outcomes": 0,
-    "overall_accuracy_pct": null,
+    "total_days": 2,
+    "days_with_outcomes": 1,
+    "overall_accuracy_pct": 0.0,
     "sector_avg_scores": {
-      "Metals": 56.2,
+      "Metals": 55.3,
       "Infra": 54.7,
       "Banking": 53.5,
-      "Finance": 52.3,
-      "Energy": 48.8
+      "Finance": 51.4,
+      "Energy": 49.7
     },
-    "moon_phase_accuracy": {},
-    "day_ruler_accuracy": {},
+    "moon_phase_accuracy": {
+      "First Quarter": 0.0
+    },
+    "day_ruler_accuracy": {
+      "Saturn": 0.0
+    },
     "cosmo_score_accuracy": {
       "high": null,
-      "medium": null,
+      "medium": 0.0,
       "low": null
     },
-    "generated_at": "2026-05-23T14:18:01Z"
+    "generated_at": "2026-05-24T09:46:04Z"
   },
   "anomalies": [],
   "history": [
@@ -313,6 +317,310 @@
         "Moon moving Leo to Virgo within 3 days",
         "First Quarter - Strong momentum phase. Trend trades favored.",
         "Day of Saturn - favors Metals, IT, Infra"
+      ],
+      "nifty50": 23719.3,
+      "nifty50_change_pct": 0.27,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-05-24",
+        "stocks": {
+          "ADANIPORTS": {
+            "entry_price": 1786.9,
+            "next_price": 1786.9,
+            "change_pct": 0.0,
+            "predicted": "Bullish",
+            "actual": "Bearish",
+            "correct": false,
+            "next_date": "2026-05-24"
+          },
+          "BAJAJ-AUTO": {
+            "entry_price": 10549.5,
+            "next_price": 10549.5,
+            "change_pct": 0.0,
+            "predicted": "Bullish",
+            "actual": "Bearish",
+            "correct": false,
+            "next_date": "2026-05-24"
+          },
+          "DLF": {
+            "entry_price": 586.7,
+            "next_price": 586.7,
+            "change_pct": 0.0,
+            "predicted": "Bullish",
+            "actual": "Bearish",
+            "correct": false,
+            "next_date": "2026-05-24"
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_calls": 0,
+        "total_calls": 3
+      }
+    },
+    {
+      "date": "2026-05-24",
+      "day_cosmo_score": 62.0,
+      "market_direction": "Neutral",
+      "volatility_bias": "Low",
+      "risk_level": "Medium",
+      "strongest_sector": "Infra",
+      "weakest_sector": "IT",
+      "moon_phase": "First Quarter",
+      "moon_phase_emoji": "\ud83c\udf13",
+      "day_ruler": "Sun",
+      "astro_score": 68,
+      "retrograde_planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Taurus",
+          "nakshatra": "Krittika",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Leo",
+          "nakshatra": "Purva Phalguni",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Aries",
+          "nakshatra": "Ashwini",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Taurus",
+          "nakshatra": "Rohini",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 1.32
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 1.33
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Square",
+          "orb": 0.15
+        },
+        {
+          "planets": [
+            "Moon",
+            "Jupiter"
+          ],
+          "aspect": "Sextile",
+          "orb": 7.99
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.29
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.47
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "aspect": "Trine",
+          "orb": 0.47
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 3.26
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 5.18
+        },
+        {
+          "planets": [
+            "Venus",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 1.82
+        },
+        {
+          "planets": [
+            "Venus",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.82
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 56.4,
+      "advancing": 44,
+      "declining": 34,
+      "top_sectors": [
+        {
+          "name": "Infra",
+          "cosmo_score": 54.7,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Metals",
+          "cosmo_score": 54.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Banking",
+          "cosmo_score": 53.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Energy",
+          "cosmo_score": 50.6,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Finance",
+          "cosmo_score": 50.5,
+          "astro_bias": "Bearish"
+        }
+      ],
+      "top_stocks": [
+        {
+          "ticker": "GAIL",
+          "sector": "Energy",
+          "cosmo_score": 73.2,
+          "direction": "Bullish",
+          "price": 160.77,
+          "rsi": 51.98,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "ADANIPORTS",
+          "sector": "Infra",
+          "cosmo_score": 72.6,
+          "direction": "Bullish",
+          "price": 1786.9,
+          "rsi": 63.41,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "ADANIGREEN",
+          "sector": "Energy",
+          "cosmo_score": 71.2,
+          "direction": "Bullish",
+          "price": 1362.3,
+          "rsi": 57.18,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "BAJAJ-AUTO",
+          "sector": "Auto",
+          "cosmo_score": 71.2,
+          "direction": "Bullish",
+          "price": 10549.5,
+          "rsi": 60.57,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "DLF",
+          "sector": "Infra",
+          "cosmo_score": 68.6,
+          "direction": "Bullish",
+          "price": 586.7,
+          "rsi": 52.13,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        }
+      ],
+      "key_signals": [
+        "Retrograde: Rahu, Ketu",
+        "Moon moving Leo to Virgo within 3 days",
+        "First Quarter - Strong momentum phase. Trend trades favored.",
+        "Day of Sun - favors Energy, Infra"
       ],
       "nifty50": 23719.3,
       "nifty50_change_pct": 0.27,

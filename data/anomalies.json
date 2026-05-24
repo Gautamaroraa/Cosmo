@@ -1,14 +1,14 @@
 {
   "meta": {
-    "date": "2026-05-23",
-    "generated_at": "2026-05-23T14:18:01Z"
+    "date": "2026-05-24",
+    "generated_at": "2026-05-24T09:46:04Z"
   },
   "summary": {
     "overall_level": "MINOR",
-    "total_anomalies": 2,
+    "total_anomalies": 1,
     "risk_count": 0,
     "positive_count": 1,
-    "medium_count": 1,
+    "medium_count": 0,
     "priority_alerts": [
       {
         "id": "ALL_BENEFICS_DIRECT",
@@ -16,24 +16,10 @@
         "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
         "severity": "POSITIVE",
         "type": "planetary"
-      },
-      {
-        "id": "MOON_KETU_CONJUNCTION",
-        "label": "Moon conjunct Ketu",
-        "description": "Emotional detachment. Unpredictable market sentiment.",
-        "severity": "MEDIUM",
-        "type": "planetary"
       }
     ]
   },
   "anomalies": [
-    {
-      "id": "MOON_KETU_CONJUNCTION",
-      "label": "Moon conjunct Ketu",
-      "description": "Emotional detachment. Unpredictable market sentiment.",
-      "severity": "MEDIUM",
-      "type": "planetary"
-    },
     {
       "id": "ALL_BENEFICS_DIRECT",
       "label": "All benefics direct",
