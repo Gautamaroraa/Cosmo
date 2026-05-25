@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-05-24",
-    "generated_at": "2026-05-24T10:04:44Z"
+    "date": "2026-05-25",
+    "generated_at": "2026-05-25T07:00:17Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
-    "moon_rashi": "Leo",
+    "moon_rashi": "Virgo",
     "mars_rashi": "Aries",
     "mercury_rashi": "Taurus",
     "jupiter_rashi": "Gemini",
@@ -17,31 +17,31 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "First Quarter",
-    "moon_nakshatra": "Purva Phalguni",
-    "day_ruler": "Sun",
-    "market_direction": "Neutral",
-    "volatility_bias": "Low",
+    "moon_nakshatra": "Uttara Phalguni",
+    "day_ruler": "Moon",
+    "market_direction": "Bullish",
+    "volatility_bias": "Medium",
     "strongest_sector": "Infra",
-    "cosmo_score_bucket": "medium",
-    "breadth_bucket": "neutral"
+    "cosmo_score_bucket": "high",
+    "breadth_bucket": "bull"
   },
-  "similar_days_found": 2,
+  "similar_days_found": 3,
   "patterns": {
     "status": "calculated",
-    "similar_days_found": 2,
-    "days_with_outcomes": 1,
-    "overall_accuracy_pct": 0.0,
-    "avg_stock_change_pct": 0.0,
+    "similar_days_found": 3,
+    "days_with_outcomes": 2,
+    "overall_accuracy_pct": 20.0,
+    "avg_stock_change_pct": 0.1,
     "direction_pattern": {
       "bullish": 0,
       "bearish": 0,
-      "neutral": 1,
+      "neutral": 2,
       "dominant": "Neutral"
     },
     "top_sectors_on_similar_days": [
       {
         "name": "Metals",
-        "avg_score": 56.2
+        "avg_score": 55.3
       },
       {
         "name": "Infra",
@@ -53,34 +53,47 @@
       },
       {
         "name": "Finance",
-        "avg_score": 52.3
+        "avg_score": 51.4
       },
       {
         "name": "Energy",
-        "avg_score": 48.8
+        "avg_score": 49.7
       }
     ],
-    "recurring_stocks": [],
+    "recurring_stocks": [
+      {
+        "ticker": "DLF",
+        "appearances": 2,
+        "accuracy_pct": 50.0,
+        "avg_change_pct": 0.54
+      },
+      {
+        "ticker": "BAJAJ-AUTO",
+        "appearances": 2,
+        "accuracy_pct": 0.0,
+        "avg_change_pct": -0.28
+      }
+    ],
     "moon_phase_pattern": {
-      "First Quarter": 1
+      "First Quarter": 2
     }
   },
   "narratives": [
-    "On 2 similar sky conditions in history, Cosmo's top stock calls were correct 0.0% of the time.",
-    "Market was Neutral on most similar past days (0B / 0Bear / 1N).",
+    "On 3 similar sky conditions in history, Cosmo's top stock calls were correct 20.0% of the time.",
+    "Market was Neutral on most similar past days (0B / 0Bear / 2N).",
     "Strongest sectors on similar days: Metals, Infra, Banking.",
-    "Top flagged stocks lost an average of 0.0% next day on similar conditions.",
-    "Mars in Aries + Day of Sun is the dominant sky signature today."
+    "Top flagged stocks gained an average of 0.1% next day on similar conditions.",
+    "Mars in Aries + Day of Moon is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-05-24",
+      "date": "2026-05-25",
       "similarity_pct": 100.0,
-      "cosmo_score": 62.0,
+      "cosmo_score": 77.9,
       "moon_phase": "First Quarter",
-      "day_ruler": "Sun",
+      "day_ruler": "Moon",
       "strongest_sector": "Infra",
-      "market_direction": "Neutral",
+      "market_direction": "Bullish",
       "outcome_accuracy": null,
       "explanation": {
         "similarity_pct": 100.0,
@@ -95,16 +108,16 @@
       }
     },
     {
-      "date": "2026-05-23",
-      "similarity_pct": 89.3,
-      "cosmo_score": 62.1,
+      "date": "2026-05-24",
+      "similarity_pct": 74.1,
+      "cosmo_score": 62.0,
       "moon_phase": "First Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Metals",
+      "day_ruler": "Sun",
+      "strongest_sector": "Infra",
       "market_direction": "Neutral",
-      "outcome_accuracy": 0.0,
+      "outcome_accuracy": 50.0,
       "explanation": {
-        "similarity_pct": 89.3,
+        "similarity_pct": 74.1,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
@@ -113,7 +126,32 @@
           "Moon phase First Quarter"
         ],
         "different": [
-          "Day ruler: Saturn \u2192 now Sun"
+          "Day ruler: Sun \u2192 now Moon",
+          "Moon in: Leo \u2192 now Virgo"
+        ]
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "similarity_pct": 71.4,
+      "cosmo_score": 62.1,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Metals",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 0.0,
+      "explanation": {
+        "similarity_pct": 71.4,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase First Quarter"
+        ],
+        "different": [
+          "Day ruler: Saturn \u2192 now Moon",
+          "Moon in: Leo \u2192 now Virgo"
         ]
       }
     }
