@@ -1,15 +1,13 @@
 {
   "meta": {
-    "date": "2026-05-25",
-    "generated_at": "2026-05-25T07:00:20Z",
+    "date": "2026-05-26",
+    "generated_at": "2026-05-26T06:35:59Z",
     "market": "Indian Stocks F&O"
   },
-  "trend_summary": "Market is Bullish with Medium volatility. 63 stocks advancing vs 15 declining. Strongest sector: Infra. Weakest: FMCG. Moon is First Quarter \u2014 bullish energy. Today is ruled by Moon. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
-  "recommendation": "NO_TRADE",
-  "rec_reason": "Confidence score 34.5/100 \u2014 conditions unfavorable",
-  "no_trade_reasons": [
-    "Confidence score 34.5/100 \u2014 conditions unfavorable"
-  ],
+  "trend_summary": "Market is Neutral with Low volatility. 40 stocks advancing vs 38 declining. Strongest sector: Infra. Weakest: Pharma. Moon is First Quarter \u2014 bullish energy. Today is ruled by Mars. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
+  "recommendation": "MOMENTUM BULLISH",
+  "rec_reason": "Confidence 40/100 \u2014 NIFTY CE (Buy)",
+  "no_trade_reasons": [],
   "setups": [
     {
       "type": "MOMENTUM",
@@ -19,42 +17,39 @@
       "entry": "Buy NIFTY CE \u2014 ATM or ATM+1 strike",
       "stop_loss": "SL: Close below nearest support",
       "target": "Target: 1.5x risk",
-      "confidence": 85,
+      "confidence": 40,
       "expiry_note": "Use weekly expiry. Exit if momentum fades.",
       "reasons": [
-        "Market direction Bullish (breadth 80.8%)",
         "First Quarter \u2014 bullish moon phase",
-        "Astro score 75/100 \u2014 favorable sky",
-        "RSI 57.5 \u2014 healthy momentum zone",
-        "Broad market advance 80.8%",
-        "NIFTY up 1.01% today"
+        "Astro score 69/100 \u2014 favorable sky",
+        "RSI 60.5 \u2014 healthy momentum zone"
       ],
       "warning": ""
     }
   ],
   "technicals": {
     "nifty": {
-      "value": 23957.85,
-      "change": 238.55,
-      "change_pct": 1.01,
+      "value": 24034.3,
+      "change": 2.6,
+      "change_pct": 0.01,
       "direction": "up"
     },
     "banknifty": {
-      "value": 54980.45,
-      "change": 925.1,
-      "change_pct": 1.71,
-      "direction": "up"
+      "value": 55252.3,
+      "change": -41.35,
+      "change_pct": -0.07,
+      "direction": "down"
     },
-    "avg_rsi": 57.5,
-    "breadth_pct": 80.8,
-    "direction": "Bullish",
-    "volatility": "Medium"
+    "avg_rsi": 60.5,
+    "breadth_pct": 51.3,
+    "direction": "Neutral",
+    "volatility": "Low"
   },
   "astro_summary": {
     "moon_phase": "First Quarter",
     "moon_bias": "bullish",
-    "day_ruler": "Moon",
-    "astro_score": 75,
+    "day_ruler": "Mars",
+    "astro_score": 69,
     "retrograde_planets": [
       "Rahu",
       "Ketu"
