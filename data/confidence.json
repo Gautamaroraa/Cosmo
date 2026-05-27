@@ -1,33 +1,33 @@
 {
   "meta": {
-    "date": "2026-05-26",
-    "generated_at": "2026-05-26T06:35:56Z",
-    "total_days": 4
+    "date": "2026-05-27",
+    "generated_at": "2026-05-27T06:52:56Z",
+    "total_days": 5
   },
   "today": {
-    "confidence_score": 44.6,
-    "confidence_level": "Very Low Confidence",
+    "confidence_score": 48.6,
+    "confidence_level": "Low Confidence",
     "factors": [
-      "On 4 similar sky days, accuracy was 28.6%"
+      "On 5 similar sky days, accuracy was 44.4%"
     ],
     "warnings": []
   },
   "calibration": {
     "status": "insufficient_data",
-    "days_needed": 2,
-    "days_available": 3
+    "days_needed": 1,
+    "days_available": 4
   },
   "condition_confidence": {
     "status": "insufficient_data"
   },
   "refinement_suggestions": {
     "status": "insufficient_data",
-    "message": "Need 15 days with outcomes. Have 3."
+    "message": "Need 15 days with outcomes. Have 4."
   },
   "data_quality": {
-    "days_total": 4,
-    "days_with_outcomes": 3,
-    "calibration_ready": false,
+    "days_total": 5,
+    "days_with_outcomes": 4,
+    "calibration_ready": true,
     "refinement_ready": false,
     "full_confidence_ready": false
   }

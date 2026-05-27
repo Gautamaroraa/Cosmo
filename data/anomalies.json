@@ -1,13 +1,13 @@
 {
   "meta": {
-    "date": "2026-05-26",
-    "generated_at": "2026-05-26T06:35:56Z"
+    "date": "2026-05-27",
+    "generated_at": "2026-05-27T06:52:56Z"
   },
   "summary": {
-    "overall_level": "MINOR",
-    "total_anomalies": 1,
+    "overall_level": "POSITIVE ANOMALY",
+    "total_anomalies": 2,
     "risk_count": 0,
-    "positive_count": 1,
+    "positive_count": 2,
     "medium_count": 0,
     "priority_alerts": [
       {
@@ -16,6 +16,13 @@
         "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
         "severity": "POSITIVE",
         "type": "planetary"
+      },
+      {
+        "id": "BROAD_UPTREND",
+        "label": "62.0% of stocks in Strong Uptrend",
+        "description": "Rare broad market strength. Momentum phase confirmed.",
+        "severity": "POSITIVE",
+        "value": 62.0
       }
     ]
   },
@@ -26,6 +33,13 @@
       "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
       "severity": "POSITIVE",
       "type": "planetary"
+    },
+    {
+      "id": "BROAD_UPTREND",
+      "label": "62.0% of stocks in Strong Uptrend",
+      "description": "Rare broad market strength. Momentum phase confirmed.",
+      "severity": "POSITIVE",
+      "value": 62.0
     }
   ]
 }

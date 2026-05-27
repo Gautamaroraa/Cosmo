@@ -1,10 +1,10 @@
 {
   "meta": {
-    "date": "2026-05-26",
-    "generated_at": "2026-05-26T06:35:59Z",
+    "date": "2026-05-27",
+    "generated_at": "2026-05-27T06:52:59Z",
     "market": "Indian Stocks F&O"
   },
-  "trend_summary": "Market is Neutral with Low volatility. 40 stocks advancing vs 38 declining. Strongest sector: Infra. Weakest: Pharma. Moon is First Quarter \u2014 bullish energy. Today is ruled by Mars. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
+  "trend_summary": "Market is Neutral with Low volatility. 46 stocks advancing vs 32 declining. Strongest sector: Infra. Weakest: FMCG. Moon is First Quarter \u2014 bullish energy. Today is ruled by Mercury. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
   "recommendation": "MOMENTUM BULLISH",
   "rec_reason": "Confidence 40/100 \u2014 NIFTY CE (Buy)",
   "no_trade_reasons": [],
@@ -21,35 +21,35 @@
       "expiry_note": "Use weekly expiry. Exit if momentum fades.",
       "reasons": [
         "First Quarter \u2014 bullish moon phase",
-        "Astro score 69/100 \u2014 favorable sky",
-        "RSI 60.5 \u2014 healthy momentum zone"
+        "Astro score 68/100 \u2014 favorable sky",
+        "RSI 62.1 \u2014 healthy momentum zone"
       ],
       "warning": ""
     }
   ],
   "technicals": {
     "nifty": {
-      "value": 24034.3,
-      "change": 2.6,
-      "change_pct": 0.01,
+      "value": 23935.1,
+      "change": 21.4,
+      "change_pct": 0.09,
       "direction": "up"
     },
     "banknifty": {
-      "value": 55252.3,
-      "change": -41.35,
-      "change_pct": -0.07,
+      "value": 55089.6,
+      "change": -3.3,
+      "change_pct": -0.01,
       "direction": "down"
     },
-    "avg_rsi": 60.5,
-    "breadth_pct": 51.3,
+    "avg_rsi": 62.1,
+    "breadth_pct": 59.0,
     "direction": "Neutral",
     "volatility": "Low"
   },
   "astro_summary": {
     "moon_phase": "First Quarter",
     "moon_bias": "bullish",
-    "day_ruler": "Mars",
-    "astro_score": 69,
+    "day_ruler": "Mercury",
+    "astro_score": 68,
     "retrograde_planets": [
       "Rahu",
       "Ketu"
