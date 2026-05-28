@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-05-27",
-    "generated_at": "2026-05-27T06:52:56Z"
+    "date": "2026-05-28",
+    "generated_at": "2026-05-28T06:42:16Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
-    "moon_rashi": "Virgo",
+    "moon_rashi": "Libra",
     "mars_rashi": "Aries",
     "mercury_rashi": "Taurus",
     "jupiter_rashi": "Gemini",
@@ -16,82 +16,82 @@
     "mars_retro": false,
     "jupiter_retro": false,
     "saturn_retro": false,
-    "moon_phase": "First Quarter",
-    "moon_nakshatra": "Chitra",
-    "day_ruler": "Mercury",
+    "moon_phase": "Waxing Gibbous",
+    "moon_nakshatra": "Swati",
+    "day_ruler": "Jupiter",
     "market_direction": "Neutral",
     "volatility_bias": "Low",
     "strongest_sector": "Infra",
-    "cosmo_score_bucket": "medium",
-    "breadth_bucket": "neutral"
+    "cosmo_score_bucket": "high",
+    "breadth_bucket": "bull"
   },
-  "similar_days_found": 5,
+  "similar_days_found": 6,
   "patterns": {
     "status": "calculated",
-    "similar_days_found": 5,
-    "days_with_outcomes": 4,
-    "overall_accuracy_pct": 44.4,
-    "avg_stock_change_pct": 0.42,
+    "similar_days_found": 6,
+    "days_with_outcomes": 5,
+    "overall_accuracy_pct": 41.7,
+    "avg_stock_change_pct": 0.27,
     "direction_pattern": {
       "bullish": 1,
       "bearish": 0,
-      "neutral": 3,
+      "neutral": 4,
       "dominant": "Neutral"
     },
     "top_sectors_on_similar_days": [
       {
         "name": "Infra",
-        "avg_score": 59.1
-      },
-      {
-        "name": "Auto",
-        "avg_score": 58.3
+        "avg_score": 60.0
       },
       {
         "name": "Metals",
-        "avg_score": 57.6
+        "avg_score": 58.0
       },
       {
         "name": "IT",
         "avg_score": 56.1
       },
       {
+        "name": "Auto",
+        "avg_score": 55.9
+      },
+      {
         "name": "Banking",
-        "avg_score": 55.4
+        "avg_score": 55.5
       }
     ],
     "recurring_stocks": [
       {
         "ticker": "BAJAJ-AUTO",
-        "appearances": 4,
-        "accuracy_pct": 50.0,
-        "avg_change_pct": 0.57
+        "appearances": 5,
+        "accuracy_pct": 60.0,
+        "avg_change_pct": 0.49
       },
       {
         "ticker": "DLF",
-        "appearances": 4,
-        "accuracy_pct": 50.0,
-        "avg_change_pct": 0.37
+        "appearances": 5,
+        "accuracy_pct": 40.0,
+        "avg_change_pct": 0.25
       }
     ],
     "moon_phase_pattern": {
-      "First Quarter": 4
+      "First Quarter": 5
     }
   },
   "narratives": [
-    "On 5 similar sky conditions in history, Cosmo's top stock calls were correct 44.4% of the time.",
-    "Market was Neutral on most similar past days (1B / 0Bear / 3N).",
-    "Strongest sectors on similar days: Infra, Auto, Metals.",
-    "Top flagged stocks gained an average of 0.42% next day on similar conditions.",
-    "Mars in Aries + Day of Mercury is the dominant sky signature today."
+    "On 6 similar sky conditions in history, Cosmo's top stock calls were correct 41.7% of the time.",
+    "Market was Neutral on most similar past days (1B / 0Bear / 4N).",
+    "Strongest sectors on similar days: Infra, Metals, IT.",
+    "Top flagged stocks gained an average of 0.27% next day on similar conditions.",
+    "Mars in Aries + Day of Jupiter is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-05-27",
+      "date": "2026-05-28",
       "similarity_pct": 100.0,
-      "cosmo_score": 63.0,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Mercury",
+      "cosmo_score": 65.7,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Jupiter",
       "strongest_sector": "Infra",
       "market_direction": "Neutral",
       "outcome_accuracy": null,
@@ -102,37 +102,14 @@
           "Jupiter in Gemini",
           "Saturn in Pisces",
           "Sun in Taurus",
-          "Moon phase First Quarter"
+          "Moon phase Waxing Gibbous"
         ],
         "different": []
       }
     },
     {
-      "date": "2026-05-26",
-      "similarity_pct": 92.0,
-      "cosmo_score": 60.1,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Mars",
-      "strongest_sector": "Infra",
-      "market_direction": "Neutral",
-      "outcome_accuracy": 100.0,
-      "explanation": {
-        "similarity_pct": 92.0,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Gemini",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Moon phase First Quarter"
-        ],
-        "different": [
-          "Day ruler: Mars \u2192 now Mercury"
-        ]
-      }
-    },
-    {
       "date": "2026-05-24",
-      "similarity_pct": 88.4,
+      "similarity_pct": 75.9,
       "cosmo_score": 62.0,
       "moon_phase": "First Quarter",
       "day_ruler": "Sun",
@@ -140,47 +117,74 @@
       "market_direction": "Neutral",
       "outcome_accuracy": 50.0,
       "explanation": {
-        "similarity_pct": 88.4,
+        "similarity_pct": 75.9,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
           "Saturn in Pisces",
           "Sun in Taurus",
-          "Moon phase First Quarter"
+          "Mercury retrograde False"
         ],
         "different": [
-          "Day ruler: Sun \u2192 now Mercury",
-          "Moon in: Leo \u2192 now Virgo"
+          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
+          "Day ruler: Sun \u2192 now Jupiter",
+          "Moon in: Leo \u2192 now Libra"
         ]
       }
     },
     {
-      "date": "2026-05-23",
-      "similarity_pct": 85.7,
-      "cosmo_score": 62.1,
+      "date": "2026-05-26",
+      "similarity_pct": 75.9,
+      "cosmo_score": 60.1,
       "moon_phase": "First Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Metals",
+      "day_ruler": "Mars",
+      "strongest_sector": "Infra",
       "market_direction": "Neutral",
-      "outcome_accuracy": 0.0,
+      "outcome_accuracy": 100.0,
       "explanation": {
-        "similarity_pct": 85.7,
+        "similarity_pct": 75.9,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
           "Saturn in Pisces",
           "Sun in Taurus",
-          "Moon phase First Quarter"
+          "Mercury retrograde False"
         ],
         "different": [
-          "Day ruler: Saturn \u2192 now Mercury",
-          "Moon in: Leo \u2192 now Virgo"
+          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
+          "Day ruler: Mars \u2192 now Jupiter",
+          "Moon in: Virgo \u2192 now Libra"
+        ]
+      }
+    },
+    {
+      "date": "2026-05-27",
+      "similarity_pct": 75.9,
+      "cosmo_score": 63.0,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Mercury",
+      "strongest_sector": "Infra",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 33.3,
+      "explanation": {
+        "similarity_pct": 75.9,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
+          "Day ruler: Mercury \u2192 now Jupiter",
+          "Moon in: Virgo \u2192 now Libra"
         ]
       }
     },
     {
       "date": "2026-05-25",
-      "similarity_pct": 77.7,
+      "similarity_pct": 74.1,
       "cosmo_score": 77.9,
       "moon_phase": "First Quarter",
       "day_ruler": "Moon",
@@ -188,16 +192,18 @@
       "market_direction": "Bullish",
       "outcome_accuracy": 50.0,
       "explanation": {
-        "similarity_pct": 77.7,
+        "similarity_pct": 74.1,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
           "Saturn in Pisces",
           "Sun in Taurus",
-          "Moon phase First Quarter"
+          "Mercury retrograde False"
         ],
         "different": [
-          "Day ruler: Moon \u2192 now Mercury"
+          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
+          "Day ruler: Moon \u2192 now Jupiter",
+          "Moon in: Virgo \u2192 now Libra"
         ]
       }
     }

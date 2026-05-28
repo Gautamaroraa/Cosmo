@@ -1,15 +1,22 @@
 {
   "meta": {
-    "date": "2026-05-27",
-    "generated_at": "2026-05-27T06:52:56Z"
+    "date": "2026-05-28",
+    "generated_at": "2026-05-28T06:42:16Z"
   },
   "summary": {
-    "overall_level": "POSITIVE ANOMALY",
-    "total_anomalies": 2,
-    "risk_count": 0,
+    "overall_level": "ELEVATED",
+    "total_anomalies": 3,
+    "risk_count": 1,
     "positive_count": 2,
     "medium_count": 0,
     "priority_alerts": [
+      {
+        "id": "BROAD_OVERBOUGHT",
+        "label": "10 stocks overbought (RSI > 70)",
+        "description": "Broad overbought condition. Correction risk elevated.",
+        "severity": "HIGH",
+        "value": 10
+      },
       {
         "id": "ALL_BENEFICS_DIRECT",
         "label": "All benefics direct",
@@ -19,10 +26,10 @@
       },
       {
         "id": "BROAD_UPTREND",
-        "label": "62.0% of stocks in Strong Uptrend",
+        "label": "66.0% of stocks in Strong Uptrend",
         "description": "Rare broad market strength. Momentum phase confirmed.",
         "severity": "POSITIVE",
-        "value": 62.0
+        "value": 66.0
       }
     ]
   },
@@ -36,10 +43,17 @@
     },
     {
       "id": "BROAD_UPTREND",
-      "label": "62.0% of stocks in Strong Uptrend",
+      "label": "66.0% of stocks in Strong Uptrend",
       "description": "Rare broad market strength. Momentum phase confirmed.",
       "severity": "POSITIVE",
-      "value": 62.0
+      "value": 66.0
+    },
+    {
+      "id": "BROAD_OVERBOUGHT",
+      "label": "10 stocks overbought (RSI > 70)",
+      "description": "Broad overbought condition. Correction risk elevated.",
+      "severity": "HIGH",
+      "value": 10
     }
   ]
 }
