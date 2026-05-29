@@ -1,13 +1,13 @@
 {
   "meta": {
-    "date": "2026-05-28",
-    "generated_at": "2026-05-28T06:42:16Z"
+    "date": "2026-05-29",
+    "generated_at": "2026-05-29T06:44:08Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
     "moon_rashi": "Libra",
     "mars_rashi": "Aries",
-    "mercury_rashi": "Taurus",
+    "mercury_rashi": "Gemini",
     "jupiter_rashi": "Gemini",
     "venus_rashi": "Gemini",
     "saturn_rashi": "Pisces",
@@ -17,43 +17,43 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "Waxing Gibbous",
-    "moon_nakshatra": "Swati",
-    "day_ruler": "Jupiter",
+    "moon_nakshatra": "Vishakha",
+    "day_ruler": "Venus",
     "market_direction": "Neutral",
-    "volatility_bias": "Low",
-    "strongest_sector": "Infra",
-    "cosmo_score_bucket": "high",
-    "breadth_bucket": "bull"
+    "volatility_bias": "Medium",
+    "strongest_sector": "IT",
+    "cosmo_score_bucket": "low",
+    "breadth_bucket": "bear"
   },
-  "similar_days_found": 6,
+  "similar_days_found": 7,
   "patterns": {
     "status": "calculated",
-    "similar_days_found": 6,
-    "days_with_outcomes": 5,
-    "overall_accuracy_pct": 41.7,
-    "avg_stock_change_pct": 0.27,
+    "similar_days_found": 7,
+    "days_with_outcomes": 6,
+    "overall_accuracy_pct": 35.7,
+    "avg_stock_change_pct": 0.21,
     "direction_pattern": {
       "bullish": 1,
       "bearish": 0,
-      "neutral": 4,
+      "neutral": 5,
       "dominant": "Neutral"
     },
     "top_sectors_on_similar_days": [
       {
         "name": "Infra",
-        "avg_score": 60.0
+        "avg_score": 60.7
       },
       {
         "name": "Metals",
-        "avg_score": 58.0
+        "avg_score": 59.0
+      },
+      {
+        "name": "Auto",
+        "avg_score": 57.5
       },
       {
         "name": "IT",
         "avg_score": 56.1
-      },
-      {
-        "name": "Auto",
-        "avg_score": 55.9
       },
       {
         "name": "Banking",
@@ -63,36 +63,43 @@
     "recurring_stocks": [
       {
         "ticker": "BAJAJ-AUTO",
-        "appearances": 5,
-        "accuracy_pct": 60.0,
-        "avg_change_pct": 0.49
+        "appearances": 6,
+        "accuracy_pct": 50.0,
+        "avg_change_pct": 0.1
       },
       {
         "ticker": "DLF",
         "appearances": 5,
         "accuracy_pct": 40.0,
         "avg_change_pct": 0.25
+      },
+      {
+        "ticker": "WIPRO",
+        "appearances": 2,
+        "accuracy_pct": 0.0,
+        "avg_change_pct": 0.57
       }
     ],
     "moon_phase_pattern": {
+      "Waxing Gibbous": 1,
       "First Quarter": 5
     }
   },
   "narratives": [
-    "On 6 similar sky conditions in history, Cosmo's top stock calls were correct 41.7% of the time.",
-    "Market was Neutral on most similar past days (1B / 0Bear / 4N).",
-    "Strongest sectors on similar days: Infra, Metals, IT.",
-    "Top flagged stocks gained an average of 0.27% next day on similar conditions.",
-    "Mars in Aries + Day of Jupiter is the dominant sky signature today."
+    "On 7 similar sky conditions in history, Cosmo's top stock calls were correct 35.7% of the time.",
+    "Market was Neutral on most similar past days (1B / 0Bear / 5N).",
+    "Strongest sectors on similar days: Infra, Metals, Auto.",
+    "Top flagged stocks gained an average of 0.21% next day on similar conditions.",
+    "Mars in Aries + Day of Venus is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-05-28",
+      "date": "2026-05-29",
       "similarity_pct": 100.0,
-      "cosmo_score": 65.7,
+      "cosmo_score": 49.6,
       "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "Infra",
+      "day_ruler": "Venus",
+      "strongest_sector": "IT",
       "market_direction": "Neutral",
       "outcome_accuracy": null,
       "explanation": {
@@ -108,8 +115,56 @@
       }
     },
     {
+      "date": "2026-05-28",
+      "similarity_pct": 75.0,
+      "cosmo_score": 65.7,
+      "moon_phase": "Waxing Gibbous",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "Infra",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 0.0,
+      "explanation": {
+        "similarity_pct": 75.0,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waxing Gibbous"
+        ],
+        "different": [
+          "Day ruler: Jupiter \u2192 now Venus"
+        ]
+      }
+    },
+    {
+      "date": "2026-05-23",
+      "similarity_pct": 65.2,
+      "cosmo_score": 62.1,
+      "moon_phase": "First Quarter",
+      "day_ruler": "Saturn",
+      "strongest_sector": "Metals",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 0.0,
+      "explanation": {
+        "similarity_pct": 65.2,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Gemini",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Mercury retrograde False"
+        ],
+        "different": [
+          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
+          "Day ruler: Saturn \u2192 now Venus",
+          "Moon in: Leo \u2192 now Libra"
+        ]
+      }
+    },
+    {
       "date": "2026-05-24",
-      "similarity_pct": 75.9,
+      "similarity_pct": 65.2,
       "cosmo_score": 62.0,
       "moon_phase": "First Quarter",
       "day_ruler": "Sun",
@@ -117,7 +172,7 @@
       "market_direction": "Neutral",
       "outcome_accuracy": 50.0,
       "explanation": {
-        "similarity_pct": 75.9,
+        "similarity_pct": 65.2,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
@@ -127,14 +182,14 @@
         ],
         "different": [
           "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Day ruler: Sun \u2192 now Jupiter",
+          "Day ruler: Sun \u2192 now Venus",
           "Moon in: Leo \u2192 now Libra"
         ]
       }
     },
     {
       "date": "2026-05-26",
-      "similarity_pct": 75.9,
+      "similarity_pct": 65.2,
       "cosmo_score": 60.1,
       "moon_phase": "First Quarter",
       "day_ruler": "Mars",
@@ -142,7 +197,7 @@
       "market_direction": "Neutral",
       "outcome_accuracy": 100.0,
       "explanation": {
-        "similarity_pct": 75.9,
+        "similarity_pct": 65.2,
         "matched": [
           "Mars in Aries",
           "Jupiter in Gemini",
@@ -152,57 +207,7 @@
         ],
         "different": [
           "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Day ruler: Mars \u2192 now Jupiter",
-          "Moon in: Virgo \u2192 now Libra"
-        ]
-      }
-    },
-    {
-      "date": "2026-05-27",
-      "similarity_pct": 75.9,
-      "cosmo_score": 63.0,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Mercury",
-      "strongest_sector": "Infra",
-      "market_direction": "Neutral",
-      "outcome_accuracy": 33.3,
-      "explanation": {
-        "similarity_pct": 75.9,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Gemini",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Day ruler: Mercury \u2192 now Jupiter",
-          "Moon in: Virgo \u2192 now Libra"
-        ]
-      }
-    },
-    {
-      "date": "2026-05-25",
-      "similarity_pct": 74.1,
-      "cosmo_score": 77.9,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Moon",
-      "strongest_sector": "Infra",
-      "market_direction": "Bullish",
-      "outcome_accuracy": 50.0,
-      "explanation": {
-        "similarity_pct": 74.1,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Gemini",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Moon phase: First Quarter \u2192 now Waxing Gibbous",
-          "Day ruler: Moon \u2192 now Jupiter",
+          "Day ruler: Mars \u2192 now Venus",
           "Moon in: Virgo \u2192 now Libra"
         ]
       }

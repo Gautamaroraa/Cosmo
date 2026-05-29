@@ -1,21 +1,30 @@
 {
   "meta": {
-    "date": "2026-05-28",
-    "generated_at": "2026-05-28T06:42:16Z"
+    "date": "2026-05-29",
+    "generated_at": "2026-05-29T06:44:08Z"
   },
   "summary": {
     "overall_level": "ELEVATED",
     "total_anomalies": 3,
-    "risk_count": 1,
-    "positive_count": 2,
+    "risk_count": 2,
+    "positive_count": 1,
     "medium_count": 0,
     "priority_alerts": [
       {
-        "id": "BROAD_OVERBOUGHT",
-        "label": "10 stocks overbought (RSI > 70)",
-        "description": "Broad overbought condition. Correction risk elevated.",
+        "id": "UNUSUALLY_LOW_COSMO_SCORE",
+        "label": "Unusually low Cosmo Score (49.6)",
+        "description": "Today's score is 1.7 standard deviations below average (62.9)",
         "severity": "HIGH",
-        "value": 10
+        "value": 49.6,
+        "avg": 62.9,
+        "z_score": -1.72
+      },
+      {
+        "id": "UNUSUALLY_LOW_BREADTH",
+        "label": "Unusually broad decline (25.6% stocks advancing)",
+        "description": "Market-wide selling. Strong bearish breadth anomaly.",
+        "severity": "HIGH",
+        "value": 25.6
       },
       {
         "id": "ALL_BENEFICS_DIRECT",
@@ -23,13 +32,6 @@
         "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
         "severity": "POSITIVE",
         "type": "planetary"
-      },
-      {
-        "id": "BROAD_UPTREND",
-        "label": "66.0% of stocks in Strong Uptrend",
-        "description": "Rare broad market strength. Momentum phase confirmed.",
-        "severity": "POSITIVE",
-        "value": 66.0
       }
     ]
   },
@@ -42,18 +44,20 @@
       "type": "planetary"
     },
     {
-      "id": "BROAD_UPTREND",
-      "label": "66.0% of stocks in Strong Uptrend",
-      "description": "Rare broad market strength. Momentum phase confirmed.",
-      "severity": "POSITIVE",
-      "value": 66.0
+      "id": "UNUSUALLY_LOW_COSMO_SCORE",
+      "label": "Unusually low Cosmo Score (49.6)",
+      "description": "Today's score is 1.7 standard deviations below average (62.9)",
+      "severity": "HIGH",
+      "value": 49.6,
+      "avg": 62.9,
+      "z_score": -1.72
     },
     {
-      "id": "BROAD_OVERBOUGHT",
-      "label": "10 stocks overbought (RSI > 70)",
-      "description": "Broad overbought condition. Correction risk elevated.",
+      "id": "UNUSUALLY_LOW_BREADTH",
+      "label": "Unusually broad decline (25.6% stocks advancing)",
+      "description": "Market-wide selling. Strong bearish breadth anomaly.",
       "severity": "HIGH",
-      "value": 10
+      "value": 25.6
     }
   ]
 }

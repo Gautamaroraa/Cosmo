@@ -1,17 +1,19 @@
 {
   "meta": {
-    "date": "2026-05-28",
-    "generated_at": "2026-05-28T06:42:16Z",
-    "total_days": 6
+    "date": "2026-05-29",
+    "generated_at": "2026-05-29T06:44:08Z",
+    "total_days": 7
   },
   "today": {
-    "confidence_score": 46.6,
-    "confidence_level": "Low Confidence",
+    "confidence_score": 28.4,
+    "confidence_level": "Very Low Confidence",
     "factors": [
-      "Score 65-79 range has historically been 45.5% accurate",
-      "On 6 similar sky days, accuracy was 41.7%"
+      "Waxing Gibbous has been 0.0% accurate historically",
+      "On 7 similar sky days, accuracy was 35.7%"
     ],
-    "warnings": []
+    "warnings": [
+      "High risk day \u2014 use tighter stop losses"
+    ]
   },
   "calibration": {
     "status": "calculated",
@@ -23,9 +25,9 @@
         "correct_calls": 0
       },
       "65-79": {
-        "accuracy_pct": 45.5,
-        "avg_change_pct": 0.34,
-        "sample_size": 11,
+        "accuracy_pct": 38.5,
+        "avg_change_pct": 0.27,
+        "sample_size": 13,
         "correct_calls": 5
       },
       "50-64": {
@@ -54,6 +56,10 @@
       "First Quarter": {
         "avg_accuracy": 46.7,
         "days": 5
+      },
+      "Waxing Gibbous": {
+        "avg_accuracy": 0.0,
+        "days": 1
       }
     },
     "day_ruler": {
@@ -76,6 +82,10 @@
       "Mercury": {
         "avg_accuracy": 33.3,
         "days": 1
+      },
+      "Jupiter": {
+        "avg_accuracy": 0.0,
+        "days": 1
       }
     },
     "sector": {
@@ -87,11 +97,11 @@
   },
   "refinement_suggestions": {
     "status": "insufficient_data",
-    "message": "Need 15 days with outcomes. Have 5."
+    "message": "Need 15 days with outcomes. Have 6."
   },
   "data_quality": {
-    "days_total": 6,
-    "days_with_outcomes": 5,
+    "days_total": 7,
+    "days_with_outcomes": 6,
     "calibration_ready": true,
     "refinement_ready": false,
     "full_confidence_ready": false
