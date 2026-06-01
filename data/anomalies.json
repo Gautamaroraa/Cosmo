@@ -1,30 +1,21 @@
 {
   "meta": {
-    "date": "2026-05-29",
-    "generated_at": "2026-05-29T06:44:08Z"
+    "date": "2026-06-01",
+    "generated_at": "2026-06-01T08:20:45Z"
   },
   "summary": {
     "overall_level": "ELEVATED",
-    "total_anomalies": 3,
-    "risk_count": 2,
+    "total_anomalies": 2,
+    "risk_count": 1,
     "positive_count": 1,
     "medium_count": 0,
     "priority_alerts": [
       {
-        "id": "UNUSUALLY_LOW_COSMO_SCORE",
-        "label": "Unusually low Cosmo Score (49.6)",
-        "description": "Today's score is 1.7 standard deviations below average (62.9)",
-        "severity": "HIGH",
-        "value": 49.6,
-        "avg": 62.9,
-        "z_score": -1.72
-      },
-      {
         "id": "UNUSUALLY_LOW_BREADTH",
-        "label": "Unusually broad decline (25.6% stocks advancing)",
+        "label": "Unusually broad decline (24.4% stocks advancing)",
         "description": "Market-wide selling. Strong bearish breadth anomaly.",
         "severity": "HIGH",
-        "value": 25.6
+        "value": 24.4
       },
       {
         "id": "ALL_BENEFICS_DIRECT",
@@ -44,20 +35,11 @@
       "type": "planetary"
     },
     {
-      "id": "UNUSUALLY_LOW_COSMO_SCORE",
-      "label": "Unusually low Cosmo Score (49.6)",
-      "description": "Today's score is 1.7 standard deviations below average (62.9)",
-      "severity": "HIGH",
-      "value": 49.6,
-      "avg": 62.9,
-      "z_score": -1.72
-    },
-    {
       "id": "UNUSUALLY_LOW_BREADTH",
-      "label": "Unusually broad decline (25.6% stocks advancing)",
+      "label": "Unusually broad decline (24.4% stocks advancing)",
       "description": "Market-wide selling. Strong bearish breadth anomaly.",
       "severity": "HIGH",
-      "value": 25.6
+      "value": 24.4
     }
   ]
 }

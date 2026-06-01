@@ -1,22 +1,22 @@
 {
   "meta": {
-    "generated_at": "2026-05-29T06:44:08Z",
-    "total_days": 7,
+    "generated_at": "2026-06-01T08:20:45Z",
+    "total_days": 8,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 7,
-    "days_with_outcomes": 6,
-    "overall_accuracy_pct": 38.9,
+    "total_days": 8,
+    "days_with_outcomes": 7,
+    "overall_accuracy_pct": 33.3,
     "sector_avg_scores": {
-      "IT": 61.5,
-      "Infra": 59.5,
-      "Metals": 57.1,
-      "Auto": 56.0,
+      "IT": 61.8,
+      "Metals": 57.7,
+      "Infra": 57.5,
       "Pharma": 54.4,
       "Banking": 54.1,
-      "Energy": 53.6,
-      "Finance": 53.2
+      "Finance": 53.2,
+      "Auto": 53.1,
+      "Energy": 51.5
     },
     "moon_phase_accuracy": {
       "First Quarter": 46.7,
@@ -28,14 +28,15 @@
       "Moon": 50.0,
       "Mars": 100.0,
       "Mercury": 33.3,
-      "Jupiter": 0.0
+      "Jupiter": 0.0,
+      "Venus": 0.0
     },
     "cosmo_score_accuracy": {
       "high": 25.0,
       "medium": 45.8,
-      "low": null
+      "low": 0.0
     },
-    "generated_at": "2026-05-29T06:44:08Z"
+    "generated_at": "2026-06-01T08:20:45Z"
   },
   "anomalies": [
     {
@@ -73,10 +74,18 @@
     {
       "date": "2026-05-29",
       "flags": [
-        "UNUSUALLY_LOW_COSMO_SCORE"
+        "ZERO_ACCURACY_DAY"
       ],
       "cosmo_score": 49.6,
       "moon_phase": "Waxing Gibbous"
+    },
+    {
+      "date": "2026-06-01",
+      "flags": [
+        "FULL_MOON_DAY"
+      ],
+      "cosmo_score": 49.0,
+      "moon_phase": "Full Moon"
     }
   ],
   "history": [
@@ -2154,6 +2163,261 @@
       ],
       "nifty50": 23833.9,
       "nifty50_change_pct": -0.31,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-06-01",
+        "stocks": {
+          "BAJAJ-AUTO": {
+            "entry_price": 10608.0,
+            "next_price": 10455.0,
+            "change_pct": -1.44,
+            "predicted": "Bullish",
+            "actual": "Bearish",
+            "correct": false,
+            "next_date": "2026-06-01"
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_calls": 0,
+        "total_calls": 1
+      }
+    },
+    {
+      "date": "2026-06-01",
+      "day_cosmo_score": 49.0,
+      "market_direction": "Neutral",
+      "volatility_bias": "Medium",
+      "risk_level": "Very High",
+      "strongest_sector": "IT",
+      "weakest_sector": "FMCG",
+      "moon_phase": "Full Moon",
+      "moon_phase_emoji": "\ud83c\udf15",
+      "day_ruler": "Moon",
+      "astro_score": 67,
+      "retrograde_planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Taurus",
+          "nakshatra": "Rohini",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Scorpio",
+          "nakshatra": "Jyeshtha",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Aries",
+          "nakshatra": "Bharani",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Gemini",
+          "nakshatra": "Mrigashira",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.4
+        },
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 6.71
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 6.71
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 5.79
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Sextile",
+          "orb": 5.86
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "aspect": "Trine",
+          "orb": 5.86
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 4.41
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.41
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 3.53
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 24.4,
+      "advancing": 19,
+      "declining": 59,
+      "top_sectors": [
+        {
+          "name": "IT",
+          "cosmo_score": 62.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Metals",
+          "cosmo_score": 61.2,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 44.2,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Energy",
+          "cosmo_score": 39.1,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Auto",
+          "cosmo_score": 38.2,
+          "astro_bias": "Neutral"
+        }
+      ],
+      "top_stocks": [
+        {
+          "ticker": "GRASIM",
+          "sector": "Infra",
+          "cosmo_score": 67.7,
+          "direction": "Neutral",
+          "price": 3101.0,
+          "rsi": 60.88,
+          "trend": "Strong Uptrend",
+          "rule_flags": []
+        },
+        {
+          "ticker": "ADANIGREEN",
+          "sector": "Energy",
+          "cosmo_score": 65.4,
+          "direction": "Neutral",
+          "price": 1450.8,
+          "rsi": 62.39,
+          "trend": "Strong Uptrend",
+          "rule_flags": []
+        },
+        {
+          "ticker": "ASIANPAINT",
+          "sector": "Consumer",
+          "cosmo_score": 64.3,
+          "direction": "Neutral",
+          "price": 2656.9,
+          "rsi": 64.0,
+          "trend": "Strong Uptrend",
+          "rule_flags": []
+        },
+        {
+          "ticker": "BAJAJ-AUTO",
+          "sector": "Auto",
+          "cosmo_score": 63.7,
+          "direction": "Neutral",
+          "price": 10455.0,
+          "rsi": 55.14,
+          "trend": "Strong Uptrend",
+          "rule_flags": []
+        },
+        {
+          "ticker": "LT",
+          "sector": "Infra",
+          "cosmo_score": 63.7,
+          "direction": "Neutral",
+          "price": 4023.7,
+          "rsi": 58.89,
+          "trend": "Strong Uptrend",
+          "rule_flags": []
+        }
+      ],
+      "key_signals": [
+        "Retrograde: Rahu, Ketu",
+        "Moon moving Scorpio to Capricorn within 3 days",
+        "Full Moon - Maximum energy. Reversals possible. Tighten SL.",
+        "Day of Moon - favors FMCG, Consumer"
+      ],
+      "nifty50": 23460.6,
+      "nifty50_change_pct": -0.37,
       "outcomes": {
         "status": "pending"
       }

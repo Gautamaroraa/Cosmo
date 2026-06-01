@@ -1,57 +1,40 @@
 {
   "meta": {
-    "date": "2026-05-29",
-    "generated_at": "2026-05-29T06:44:11Z",
+    "date": "2026-06-01",
+    "generated_at": "2026-06-01T08:20:47Z",
     "market": "Indian Stocks F&O"
   },
-  "trend_summary": "Market is Neutral with Medium volatility. 20 stocks advancing vs 57 declining. Strongest sector: IT. Weakest: Finance. Moon is Waxing Gibbous \u2014 bullish energy. Today is ruled by Venus. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
+  "trend_summary": "Market is Neutral with Medium volatility. 19 stocks advancing vs 59 declining. Strongest sector: IT. Weakest: FMCG. Moon is Full Moon \u2014 volatile energy. Today is ruled by Moon. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
   "recommendation": "NO_TRADE",
-  "rec_reason": "Confidence score 28.4/100 \u2014 conditions unfavorable",
+  "rec_reason": "Full Moon \u2014 maximum volatility, unpredictable moves | Confidence score 20.8/100 \u2014 conditions unfavorable",
   "no_trade_reasons": [
-    "Confidence score 28.4/100 \u2014 conditions unfavorable"
+    "Full Moon \u2014 maximum volatility, unpredictable moves",
+    "Confidence score 20.8/100 \u2014 conditions unfavorable"
   ],
-  "setups": [
-    {
-      "type": "MOMENTUM",
-      "direction": "BULLISH",
-      "instrument": "NIFTY CE (Buy)",
-      "index": "NIFTY",
-      "entry": "Buy NIFTY CE \u2014 ATM or ATM+1 strike",
-      "stop_loss": "SL: Close below nearest support",
-      "target": "Target: 1.5x risk",
-      "confidence": 40,
-      "expiry_note": "Use weekly expiry. Exit if momentum fades.",
-      "reasons": [
-        "Waxing Gibbous \u2014 bullish moon phase",
-        "Astro score 68/100 \u2014 favorable sky",
-        "RSI 57.3 \u2014 healthy momentum zone"
-      ],
-      "warning": ""
-    }
-  ],
+  "setups": [],
   "technicals": {
     "nifty": {
-      "value": 23833.9,
-      "change": -73.25,
-      "change_pct": -0.31,
+      "value": 23460.6,
+      "change": -87.15,
+      "change_pct": -0.37,
       "direction": "down"
     },
     "banknifty": {
-      "value": 54854.1,
-      "change": 0.25,
-      "change_pct": 0.0,
-      "direction": "up"
+      "value": 53676.75,
+      "change": -562.45,
+      "change_pct": -1.04,
+      "direction": "down"
     },
-    "avg_rsi": 57.3,
-    "breadth_pct": 25.6,
+    "avg_rsi": 60.3,
+    "breadth_pct": 24.4,
     "direction": "Neutral",
     "volatility": "Medium"
   },
   "astro_summary": {
-    "moon_phase": "Waxing Gibbous",
-    "moon_bias": "bullish",
-    "day_ruler": "Venus",
-    "astro_score": 68,
+    "moon_phase": "Full Moon",
+    "moon_bias": "volatile",
+    "day_ruler": "Moon",
+    "astro_score": 67,
     "retrograde_planets": [
       "Rahu",
       "Ketu"
