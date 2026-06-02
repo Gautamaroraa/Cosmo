@@ -1,31 +1,33 @@
 {
   "meta": {
-    "generated_at": "2026-06-01T08:20:45Z",
-    "total_days": 8,
+    "generated_at": "2026-06-02T07:15:22Z",
+    "total_days": 9,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 8,
-    "days_with_outcomes": 7,
-    "overall_accuracy_pct": 33.3,
+    "total_days": 9,
+    "days_with_outcomes": 8,
+    "overall_accuracy_pct": 29.2,
     "sector_avg_scores": {
-      "IT": 61.8,
+      "IT": 64.2,
       "Metals": 57.7,
-      "Infra": 57.5,
+      "Infra": 56.2,
       "Pharma": 54.4,
       "Banking": 54.1,
       "Finance": 53.2,
-      "Auto": 53.1,
-      "Energy": 51.5
+      "Auto": 52.0,
+      "Energy": 51.5,
+      "Consumer": 44.0
     },
     "moon_phase_accuracy": {
       "First Quarter": 46.7,
-      "Waxing Gibbous": 0.0
+      "Waxing Gibbous": 0.0,
+      "Full Moon": 0.0
     },
     "day_ruler_accuracy": {
       "Saturn": 0.0,
       "Sun": 50.0,
-      "Moon": 50.0,
+      "Moon": 25.0,
       "Mars": 100.0,
       "Mercury": 33.3,
       "Jupiter": 0.0,
@@ -36,7 +38,7 @@
       "medium": 45.8,
       "low": 0.0
     },
-    "generated_at": "2026-06-01T08:20:45Z"
+    "generated_at": "2026-06-02T07:15:22Z"
   },
   "anomalies": [
     {
@@ -82,6 +84,7 @@
     {
       "date": "2026-06-01",
       "flags": [
+        "ZERO_ACCURACY_DAY",
         "FULL_MOON_DAY"
       ],
       "cosmo_score": 49.0,
@@ -2418,6 +2421,321 @@
       ],
       "nifty50": 23460.6,
       "nifty50_change_pct": -0.37,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-06-02",
+        "stocks": {
+          "GRASIM": {
+            "entry_price": 3101.0,
+            "next_price": 3080.5,
+            "change_pct": -0.66,
+            "predicted": "Neutral",
+            "actual": "Bearish",
+            "correct": false,
+            "next_date": "2026-06-02"
+          },
+          "ASIANPAINT": {
+            "entry_price": 2656.9,
+            "next_price": 2637.7,
+            "change_pct": -0.72,
+            "predicted": "Neutral",
+            "actual": "Bearish",
+            "correct": false,
+            "next_date": "2026-06-02"
+          }
+        },
+        "accuracy_pct": 0.0,
+        "correct_calls": 0,
+        "total_calls": 2
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "day_cosmo_score": 53.3,
+      "market_direction": "Neutral",
+      "volatility_bias": "Medium",
+      "risk_level": "High",
+      "strongest_sector": "IT",
+      "weakest_sector": "Pharma",
+      "moon_phase": "Waning Gibbous",
+      "moon_phase_emoji": "\ud83c\udf16",
+      "day_ruler": "Mars",
+      "astro_score": 74,
+      "retrograde_planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Taurus",
+          "nakshatra": "Rohini",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Sagittarius",
+          "nakshatra": "Mula",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Aries",
+          "nakshatra": "Bharani",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "orb": 7.38
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 0.57
+        },
+        {
+          "planets": [
+            "Sun",
+            "Rahu"
+          ],
+          "aspect": "Square",
+          "orb": 7.68
+        },
+        {
+          "planets": [
+            "Sun",
+            "Ketu"
+          ],
+          "aspect": "Square",
+          "orb": 7.68
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Trine",
+          "orb": 7.79
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Opposition",
+          "orb": 1.58
+        },
+        {
+          "planets": [
+            "Moon",
+            "Rahu"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.17
+        },
+        {
+          "planets": [
+            "Moon",
+            "Ketu"
+          ],
+          "aspect": "Trine",
+          "orb": 1.17
+        },
+        {
+          "planets": [
+            "Mars",
+            "Venus"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.21
+        },
+        {
+          "planets": [
+            "Mars",
+            "Rahu"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.62
+        },
+        {
+          "planets": [
+            "Mars",
+            "Ketu"
+          ],
+          "aspect": "Trine",
+          "orb": 6.62
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 2.76
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 2.76
+        },
+        {
+          "planets": [
+            "Venus",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 4.58
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 32.1,
+      "advancing": 25,
+      "declining": 53,
+      "top_sectors": [
+        {
+          "name": "IT",
+          "cosmo_score": 71.4,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Metals",
+          "cosmo_score": 57.4,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Auto",
+          "cosmo_score": 45.4,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Infra",
+          "cosmo_score": 45.4,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "Consumer",
+          "cosmo_score": 44.0,
+          "astro_bias": "Bullish"
+        }
+      ],
+      "top_stocks": [
+        {
+          "ticker": "GRASIM",
+          "sector": "Infra",
+          "cosmo_score": 71.8,
+          "direction": "Bullish",
+          "price": 3080.5,
+          "rsi": 55.02,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "ASIANPAINT",
+          "sector": "Consumer",
+          "cosmo_score": 70.1,
+          "direction": "Bullish",
+          "price": 2637.7,
+          "rsi": 55.51,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "ADANIPORTS",
+          "sector": "Infra",
+          "cosmo_score": 69.8,
+          "direction": "Bullish",
+          "price": 1790.0,
+          "rsi": 53.35,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "NMDC",
+          "sector": "Metals",
+          "cosmo_score": 68.1,
+          "direction": "Bullish",
+          "price": 96.0,
+          "rsi": 68.48,
+          "trend": "Strong Uptrend",
+          "rule_flags": []
+        },
+        {
+          "ticker": "COALINDIA",
+          "sector": "Metals",
+          "cosmo_score": 66.6,
+          "direction": "Bullish",
+          "price": 470.2,
+          "rsi": 62.34,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        }
+      ],
+      "key_signals": [
+        "Retrograde: Rahu, Ketu",
+        "Moon moving Sagittarius to Capricorn within 3 days",
+        "Waning Gibbous - Consolidation phase. Selective entries only.",
+        "Day of Mars - favors Metals, Auto, Infra"
+      ],
+      "nifty50": 23385.65,
+      "nifty50_change_pct": 0.01,
       "outcomes": {
         "status": "pending"
       }

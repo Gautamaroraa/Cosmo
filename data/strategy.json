@@ -1,40 +1,39 @@
 {
   "meta": {
-    "date": "2026-06-01",
-    "generated_at": "2026-06-01T08:20:47Z",
+    "date": "2026-06-02",
+    "generated_at": "2026-06-02T07:15:25Z",
     "market": "Indian Stocks F&O"
   },
-  "trend_summary": "Market is Neutral with Medium volatility. 19 stocks advancing vs 59 declining. Strongest sector: IT. Weakest: FMCG. Moon is Full Moon \u2014 volatile energy. Today is ruled by Moon. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
+  "trend_summary": "Market is Neutral with Medium volatility. 25 stocks advancing vs 53 declining. Strongest sector: IT. Weakest: Pharma. Moon is Waning Gibbous \u2014 neutral energy. Today is ruled by Mars. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
   "recommendation": "NO_TRADE",
-  "rec_reason": "Full Moon \u2014 maximum volatility, unpredictable moves | Confidence score 20.8/100 \u2014 conditions unfavorable",
+  "rec_reason": "Confidence score 31.9/100 \u2014 conditions unfavorable",
   "no_trade_reasons": [
-    "Full Moon \u2014 maximum volatility, unpredictable moves",
-    "Confidence score 20.8/100 \u2014 conditions unfavorable"
+    "Confidence score 31.9/100 \u2014 conditions unfavorable"
   ],
   "setups": [],
   "technicals": {
     "nifty": {
-      "value": 23460.6,
-      "change": -87.15,
-      "change_pct": -0.37,
-      "direction": "down"
+      "value": 23385.65,
+      "change": 3.05,
+      "change_pct": 0.01,
+      "direction": "up"
     },
     "banknifty": {
-      "value": 53676.75,
-      "change": -562.45,
-      "change_pct": -1.04,
+      "value": 53523.3,
+      "change": -119.8,
+      "change_pct": -0.22,
       "direction": "down"
     },
-    "avg_rsi": 60.3,
-    "breadth_pct": 24.4,
+    "avg_rsi": 58.9,
+    "breadth_pct": 32.1,
     "direction": "Neutral",
     "volatility": "Medium"
   },
   "astro_summary": {
-    "moon_phase": "Full Moon",
-    "moon_bias": "volatile",
-    "day_ruler": "Moon",
-    "astro_score": 67,
+    "moon_phase": "Waning Gibbous",
+    "moon_bias": "neutral",
+    "day_ruler": "Mars",
+    "astro_score": 74,
     "retrograde_planets": [
       "Rahu",
       "Ketu"

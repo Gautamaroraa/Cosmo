@@ -1,21 +1,28 @@
 {
   "meta": {
-    "date": "2026-06-01",
-    "generated_at": "2026-06-01T08:20:45Z"
+    "date": "2026-06-02",
+    "generated_at": "2026-06-02T07:15:22Z"
   },
   "summary": {
-    "overall_level": "ELEVATED",
-    "total_anomalies": 2,
-    "risk_count": 1,
-    "positive_count": 1,
+    "overall_level": "POSITIVE ANOMALY",
+    "total_anomalies": 3,
+    "risk_count": 0,
+    "positive_count": 3,
     "medium_count": 0,
     "priority_alerts": [
       {
-        "id": "UNUSUALLY_LOW_BREADTH",
-        "label": "Unusually broad decline (24.4% stocks advancing)",
-        "description": "Market-wide selling. Strong bearish breadth anomaly.",
-        "severity": "HIGH",
-        "value": 24.4
+        "id": "VENUS_JUPITER_CONJUNCTION",
+        "label": "Venus conjunct Jupiter",
+        "description": "Wealth yoga. Strong bullish energy for finance and consumer.",
+        "severity": "POSITIVE",
+        "type": "planetary"
+      },
+      {
+        "id": "JUPITER_EXALTED",
+        "label": "Jupiter exalted in Cancer",
+        "description": "Maximum Jupiter strength. Exceptional for banking and finance.",
+        "severity": "POSITIVE",
+        "type": "planetary"
       },
       {
         "id": "ALL_BENEFICS_DIRECT",
@@ -28,18 +35,25 @@
   },
   "anomalies": [
     {
+      "id": "VENUS_JUPITER_CONJUNCTION",
+      "label": "Venus conjunct Jupiter",
+      "description": "Wealth yoga. Strong bullish energy for finance and consumer.",
+      "severity": "POSITIVE",
+      "type": "planetary"
+    },
+    {
+      "id": "JUPITER_EXALTED",
+      "label": "Jupiter exalted in Cancer",
+      "description": "Maximum Jupiter strength. Exceptional for banking and finance.",
+      "severity": "POSITIVE",
+      "type": "planetary"
+    },
+    {
       "id": "ALL_BENEFICS_DIRECT",
       "label": "All benefics direct",
       "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
       "severity": "POSITIVE",
       "type": "planetary"
-    },
-    {
-      "id": "UNUSUALLY_LOW_BREADTH",
-      "label": "Unusually broad decline (24.4% stocks advancing)",
-      "description": "Market-wide selling. Strong bearish breadth anomaly.",
-      "severity": "HIGH",
-      "value": 24.4
     }
   ]
 }
