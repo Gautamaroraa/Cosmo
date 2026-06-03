@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-06-02",
-    "generated_at": "2026-06-02T07:15:22Z"
+    "date": "2026-06-03",
+    "generated_at": "2026-06-03T07:30:07Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -17,31 +17,31 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "Waning Gibbous",
-    "moon_nakshatra": "Mula",
-    "day_ruler": "Mars",
-    "market_direction": "Neutral",
+    "moon_nakshatra": "Purva Ashadha",
+    "day_ruler": "Mercury",
+    "market_direction": "Bearish",
     "volatility_bias": "Medium",
     "strongest_sector": "IT",
-    "cosmo_score_bucket": "medium",
+    "cosmo_score_bucket": "low",
     "breadth_bucket": "bear"
   },
-  "similar_days_found": 9,
+  "similar_days_found": 10,
   "patterns": {
     "status": "calculated",
-    "similar_days_found": 9,
-    "days_with_outcomes": 8,
-    "overall_accuracy_pct": 29.4,
-    "avg_stock_change_pct": 0.01,
+    "similar_days_found": 10,
+    "days_with_outcomes": 9,
+    "overall_accuracy_pct": 33.3,
+    "avg_stock_change_pct": 0.06,
     "direction_pattern": {
       "bullish": 1,
       "bearish": 0,
-      "neutral": 7,
+      "neutral": 8,
       "dominant": "Neutral"
     },
     "top_sectors_on_similar_days": [
       {
         "name": "IT",
-        "avg_score": 61.8
+        "avg_score": 64.2
       },
       {
         "name": "Metals",
@@ -49,7 +49,7 @@
       },
       {
         "name": "Infra",
-        "avg_score": 57.6
+        "avg_score": 56.2
       },
       {
         "name": "Pharma",
@@ -61,6 +61,12 @@
       }
     ],
     "recurring_stocks": [
+      {
+        "ticker": "ASIANPAINT",
+        "appearances": 2,
+        "accuracy_pct": 50.0,
+        "avg_change_pct": 0.08
+      },
       {
         "ticker": "BAJAJ-AUTO",
         "appearances": 7,
@@ -81,27 +87,28 @@
       }
     ],
     "moon_phase_pattern": {
+      "Waning Gibbous": 1,
       "Waxing Gibbous": 2,
       "Full Moon": 1,
       "First Quarter": 5
     }
   },
   "narratives": [
-    "On 9 similar sky conditions in history, Cosmo's top stock calls were correct 29.4% of the time.",
-    "Market was Neutral on most similar past days (1B / 0Bear / 7N).",
+    "On 10 similar sky conditions in history, Cosmo's top stock calls were correct 33.3% of the time.",
+    "Market was Neutral on most similar past days (1B / 0Bear / 8N).",
     "Strongest sectors on similar days: IT, Metals, Infra.",
-    "Top flagged stocks gained an average of 0.01% next day on similar conditions.",
-    "Mars in Aries + Day of Mars is the dominant sky signature today."
+    "Top flagged stocks gained an average of 0.06% next day on similar conditions.",
+    "Mars in Aries + Day of Mercury is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-06-02",
+      "date": "2026-06-03",
       "similarity_pct": 100.0,
-      "cosmo_score": 53.3,
+      "cosmo_score": 47.8,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mars",
+      "day_ruler": "Mercury",
       "strongest_sector": "IT",
-      "market_direction": "Neutral",
+      "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
         "similarity_pct": 100.0,
@@ -116,8 +123,31 @@
       }
     },
     {
+      "date": "2026-06-02",
+      "similarity_pct": 83.9,
+      "cosmo_score": 53.3,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mars",
+      "strongest_sector": "IT",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 100.0,
+      "explanation": {
+        "similarity_pct": 83.9,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Mars \u2192 now Mercury"
+        ]
+      }
+    },
+    {
       "date": "2026-05-29",
-      "similarity_pct": 69.6,
+      "similarity_pct": 68.8,
       "cosmo_score": 49.6,
       "moon_phase": "Waxing Gibbous",
       "day_ruler": "Venus",
@@ -125,7 +155,7 @@
       "market_direction": "Neutral",
       "outcome_accuracy": 0.0,
       "explanation": {
-        "similarity_pct": 69.6,
+        "similarity_pct": 68.8,
         "matched": [
           "Mars in Aries",
           "Saturn in Pisces",
@@ -135,13 +165,13 @@
         "different": [
           "Jupiter in: Gemini \u2192 now Cancer",
           "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Day ruler: Venus \u2192 now Mars"
+          "Day ruler: Venus \u2192 now Mercury"
         ]
       }
     },
     {
       "date": "2026-06-01",
-      "similarity_pct": 69.6,
+      "similarity_pct": 68.8,
       "cosmo_score": 49.0,
       "moon_phase": "Full Moon",
       "day_ruler": "Moon",
@@ -149,7 +179,7 @@
       "market_direction": "Neutral",
       "outcome_accuracy": 0.0,
       "explanation": {
-        "similarity_pct": 69.6,
+        "similarity_pct": 68.8,
         "matched": [
           "Mars in Aries",
           "Saturn in Pisces",
@@ -159,56 +189,32 @@
         "different": [
           "Jupiter in: Gemini \u2192 now Cancer",
           "Moon phase: Full Moon \u2192 now Waning Gibbous",
-          "Day ruler: Moon \u2192 now Mars"
+          "Day ruler: Moon \u2192 now Mercury"
         ]
       }
     },
     {
-      "date": "2026-05-26",
-      "similarity_pct": 65.2,
-      "cosmo_score": 60.1,
+      "date": "2026-05-27",
+      "similarity_pct": 57.1,
+      "cosmo_score": 63.0,
       "moon_phase": "First Quarter",
-      "day_ruler": "Mars",
+      "day_ruler": "Mercury",
       "strongest_sector": "Infra",
       "market_direction": "Neutral",
-      "outcome_accuracy": 100.0,
+      "outcome_accuracy": 33.3,
       "explanation": {
-        "similarity_pct": 65.2,
+        "similarity_pct": 57.1,
         "matched": [
           "Mars in Aries",
           "Saturn in Pisces",
           "Sun in Taurus",
-          "Day ruler Mars",
+          "Day ruler Mercury",
           "Mercury retrograde False"
         ],
         "different": [
           "Jupiter in: Gemini \u2192 now Cancer",
           "Moon phase: First Quarter \u2192 now Waning Gibbous",
           "Moon in: Virgo \u2192 now Sagittarius"
-        ]
-      }
-    },
-    {
-      "date": "2026-05-23",
-      "similarity_pct": 59.8,
-      "cosmo_score": 62.1,
-      "moon_phase": "First Quarter",
-      "day_ruler": "Saturn",
-      "strongest_sector": "Metals",
-      "market_direction": "Neutral",
-      "outcome_accuracy": 0.0,
-      "explanation": {
-        "similarity_pct": 59.8,
-        "matched": [
-          "Mars in Aries",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Jupiter in: Gemini \u2192 now Cancer",
-          "Moon phase: First Quarter \u2192 now Waning Gibbous",
-          "Day ruler: Saturn \u2192 now Mars"
         ]
       }
     }

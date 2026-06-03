@@ -1,39 +1,55 @@
 {
   "meta": {
-    "date": "2026-06-02",
-    "generated_at": "2026-06-02T07:15:25Z",
+    "date": "2026-06-03",
+    "generated_at": "2026-06-03T07:30:11Z",
     "market": "Indian Stocks F&O"
   },
-  "trend_summary": "Market is Neutral with Medium volatility. 25 stocks advancing vs 53 declining. Strongest sector: IT. Weakest: Pharma. Moon is Waning Gibbous \u2014 neutral energy. Today is ruled by Mars. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
-  "recommendation": "NO_TRADE",
-  "rec_reason": "Confidence score 31.9/100 \u2014 conditions unfavorable",
-  "no_trade_reasons": [
-    "Confidence score 31.9/100 \u2014 conditions unfavorable"
+  "trend_summary": "Market is Bearish with Medium volatility. 16 stocks advancing vs 60 declining. Strongest sector: IT. Weakest: Finance. Moon is Waning Gibbous \u2014 neutral energy. Today is ruled by Mercury. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
+  "recommendation": "MOMENTUM BEARISH",
+  "rec_reason": "Confidence 45/100 \u2014 NIFTY PE (Buy)",
+  "no_trade_reasons": [],
+  "setups": [
+    {
+      "type": "MOMENTUM",
+      "direction": "BEARISH",
+      "instrument": "NIFTY PE (Buy)",
+      "index": "NIFTY",
+      "entry": "Buy NIFTY PE \u2014 ATM or ATM-1 strike",
+      "stop_loss": "SL: NIFTY closes above recent resistance",
+      "target": "Target: 1.5x risk",
+      "confidence": 45,
+      "expiry_note": "Use weekly expiry. Exit before Full Moon.",
+      "reasons": [
+        "Market direction Bearish (breadth 20.5%)",
+        "Broad market decline 20.5%",
+        "NIFTY down 0.84% today"
+      ],
+      "warning": ""
+    }
   ],
-  "setups": [],
   "technicals": {
     "nifty": {
-      "value": 23385.65,
-      "change": 3.05,
-      "change_pct": 0.01,
-      "direction": "up"
+      "value": 23287.05,
+      "change": -196.5,
+      "change_pct": -0.84,
+      "direction": "down"
     },
     "banknifty": {
-      "value": 53523.3,
-      "change": -119.8,
+      "value": 53595.25,
+      "change": -119.4,
       "change_pct": -0.22,
       "direction": "down"
     },
-    "avg_rsi": 58.9,
-    "breadth_pct": 32.1,
-    "direction": "Neutral",
+    "avg_rsi": 57.2,
+    "breadth_pct": 20.5,
+    "direction": "Bearish",
     "volatility": "Medium"
   },
   "astro_summary": {
     "moon_phase": "Waning Gibbous",
     "moon_bias": "neutral",
-    "day_ruler": "Mars",
-    "astro_score": 74,
+    "day_ruler": "Mercury",
+    "astro_score": 69,
     "retrograde_planets": [
       "Rahu",
       "Ketu"
