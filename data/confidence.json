@@ -1,20 +1,19 @@
 {
   "meta": {
-    "date": "2026-06-03",
-    "generated_at": "2026-06-03T07:30:07Z",
-    "total_days": 10
+    "date": "2026-06-04",
+    "generated_at": "2026-06-04T07:13:36Z",
+    "total_days": 11
   },
   "today": {
-    "confidence_score": 44.5,
+    "confidence_score": 30.3,
     "confidence_level": "Very Low Confidence",
     "factors": [
+      "Score 50-64 range has historically been 0.0% accurate",
       "Waning Gibbous has been 100.0% accurate historically",
-      "Day of Mercury has been 33.3% accurate historically",
-      "On 10 similar sky days, accuracy was 33.3%"
+      "Day of Jupiter has been 0.0% accurate historically",
+      "On 10 similar sky days, accuracy was 31.2%"
     ],
-    "warnings": [
-      "High risk day \u2014 use tighter stop losses"
-    ]
+    "warnings": []
   },
   "calibration": {
     "status": "calculated",
@@ -110,11 +109,11 @@
   },
   "refinement_suggestions": {
     "status": "insufficient_data",
-    "message": "Need 15 days with outcomes. Have 9."
+    "message": "Need 15 days with outcomes. Have 10."
   },
   "data_quality": {
-    "days_total": 10,
-    "days_with_outcomes": 9,
+    "days_total": 11,
+    "days_with_outcomes": 10,
     "calibration_ready": true,
     "refinement_ready": false,
     "full_confidence_ready": false
