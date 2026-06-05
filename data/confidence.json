@@ -1,19 +1,21 @@
 {
   "meta": {
-    "date": "2026-06-04",
-    "generated_at": "2026-06-04T07:13:36Z",
-    "total_days": 11
+    "date": "2026-06-05",
+    "generated_at": "2026-06-05T06:56:48Z",
+    "total_days": 12
   },
   "today": {
-    "confidence_score": 30.3,
+    "confidence_score": 24.5,
     "confidence_level": "Very Low Confidence",
     "factors": [
       "Score 50-64 range has historically been 0.0% accurate",
       "Waning Gibbous has been 100.0% accurate historically",
-      "Day of Jupiter has been 0.0% accurate historically",
-      "On 10 similar sky days, accuracy was 31.2%"
+      "Day of Venus has been 0.0% accurate historically",
+      "On 10 similar sky days, accuracy was 40.0%"
     ],
-    "warnings": []
+    "warnings": [
+      "High risk day \u2014 use tighter stop losses"
+    ]
   },
   "calibration": {
     "status": "calculated",
@@ -25,10 +27,10 @@
         "correct_calls": 0
       },
       "65-79": {
-        "accuracy_pct": 37.5,
-        "avg_change_pct": 0.14,
-        "sample_size": 16,
-        "correct_calls": 6
+        "accuracy_pct": 41.2,
+        "avg_change_pct": 0.17,
+        "sample_size": 17,
+        "correct_calls": 7
       },
       "50-64": {
         "accuracy_pct": 0.0,
@@ -67,7 +69,7 @@
       },
       "Waning Gibbous": {
         "avg_accuracy": 100.0,
-        "days": 1
+        "days": 2
       }
     },
     "day_ruler": {
@@ -92,8 +94,8 @@
         "days": 1
       },
       "Jupiter": {
-        "avg_accuracy": 0.0,
-        "days": 1
+        "avg_accuracy": 50.0,
+        "days": 2
       },
       "Venus": {
         "avg_accuracy": 0.0,
@@ -109,11 +111,11 @@
   },
   "refinement_suggestions": {
     "status": "insufficient_data",
-    "message": "Need 15 days with outcomes. Have 10."
+    "message": "Need 15 days with outcomes. Have 11."
   },
   "data_quality": {
-    "days_total": 11,
-    "days_with_outcomes": 10,
+    "days_total": 12,
+    "days_with_outcomes": 11,
     "calibration_ready": true,
     "refinement_ready": false,
     "full_confidence_ready": false

@@ -1,39 +1,39 @@
 {
   "meta": {
-    "date": "2026-06-04",
-    "generated_at": "2026-06-04T07:13:39Z",
+    "date": "2026-06-05",
+    "generated_at": "2026-06-05T06:56:51Z",
     "market": "Indian Stocks F&O"
   },
-  "trend_summary": "Market is Neutral with Low volatility. 41 stocks advancing vs 36 declining. Strongest sector: Consumer. Weakest: Finance. Moon is Waning Gibbous \u2014 neutral energy. Today is ruled by Jupiter. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
+  "trend_summary": "Market is Neutral with Medium volatility. 46 stocks advancing vs 32 declining. Strongest sector: Pharma. Weakest: Metals. Moon is Waning Gibbous \u2014 neutral energy. Today is ruled by Venus. Retrograde planets: Rahu, Ketu \u2014 exercise caution.",
   "recommendation": "NO_TRADE",
-  "rec_reason": "Confidence score 30.3/100 \u2014 conditions unfavorable",
+  "rec_reason": "Confidence score 24.5/100 \u2014 conditions unfavorable",
   "no_trade_reasons": [
-    "Confidence score 30.3/100 \u2014 conditions unfavorable"
+    "Confidence score 24.5/100 \u2014 conditions unfavorable"
   ],
   "setups": [],
   "technicals": {
     "nifty": {
-      "value": 23396.85,
-      "change": -8.75,
-      "change_pct": -0.04,
-      "direction": "down"
-    },
-    "banknifty": {
-      "value": 54277.05,
-      "change": 91.1,
-      "change_pct": 0.17,
+      "value": 23449.75,
+      "change": 33.2,
+      "change_pct": 0.14,
       "direction": "up"
     },
-    "avg_rsi": 56.2,
-    "breadth_pct": 52.6,
+    "banknifty": {
+      "value": 54649.45,
+      "change": 341.6,
+      "change_pct": 0.63,
+      "direction": "up"
+    },
+    "avg_rsi": 58.6,
+    "breadth_pct": 59.0,
     "direction": "Neutral",
-    "volatility": "Low"
+    "volatility": "Medium"
   },
   "astro_summary": {
     "moon_phase": "Waning Gibbous",
     "moon_bias": "neutral",
-    "day_ruler": "Jupiter",
-    "astro_score": 58,
+    "day_ruler": "Venus",
+    "astro_score": 69,
     "retrograde_planets": [
       "Rahu",
       "Ketu"
