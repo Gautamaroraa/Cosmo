@@ -1,17 +1,17 @@
 {
   "meta": {
-    "date": "2026-06-05",
-    "generated_at": "2026-06-05T06:56:48Z",
-    "total_days": 12
+    "date": "2026-06-07",
+    "generated_at": "2026-06-07T14:12:16Z",
+    "total_days": 13
   },
   "today": {
-    "confidence_score": 24.5,
+    "confidence_score": 27.5,
     "confidence_level": "Very Low Confidence",
     "factors": [
       "Score 50-64 range has historically been 0.0% accurate",
-      "Waning Gibbous has been 100.0% accurate historically",
-      "Day of Venus has been 0.0% accurate historically",
-      "On 10 similar sky days, accuracy was 40.0%"
+      "Waning Gibbous has been 66.7% accurate historically",
+      "Day of Sun has been 50.0% accurate historically",
+      "On 10 similar sky days, accuracy was 38.5%"
     ],
     "warnings": [
       "High risk day \u2014 use tighter stop losses"
@@ -27,9 +27,9 @@
         "correct_calls": 0
       },
       "65-79": {
-        "accuracy_pct": 41.2,
-        "avg_change_pct": 0.17,
-        "sample_size": 17,
+        "accuracy_pct": 38.9,
+        "avg_change_pct": 0.15,
+        "sample_size": 18,
         "correct_calls": 7
       },
       "50-64": {
@@ -68,8 +68,8 @@
         "days": 1
       },
       "Waning Gibbous": {
-        "avg_accuracy": 100.0,
-        "days": 2
+        "avg_accuracy": 66.7,
+        "days": 3
       }
     },
     "day_ruler": {
@@ -99,7 +99,7 @@
       },
       "Venus": {
         "avg_accuracy": 0.0,
-        "days": 1
+        "days": 2
       }
     },
     "sector": {
@@ -111,11 +111,11 @@
   },
   "refinement_suggestions": {
     "status": "insufficient_data",
-    "message": "Need 15 days with outcomes. Have 11."
+    "message": "Need 15 days with outcomes. Have 12."
   },
   "data_quality": {
-    "days_total": 12,
-    "days_with_outcomes": 11,
+    "days_total": 13,
+    "days_with_outcomes": 12,
     "calibration_ready": true,
     "refinement_ready": false,
     "full_confidence_ready": false

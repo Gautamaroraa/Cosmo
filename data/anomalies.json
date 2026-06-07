@@ -1,14 +1,14 @@
 {
   "meta": {
-    "date": "2026-06-05",
-    "generated_at": "2026-06-05T06:56:48Z"
+    "date": "2026-06-07",
+    "generated_at": "2026-06-07T14:12:16Z"
   },
   "summary": {
     "overall_level": "POSITIVE ANOMALY",
-    "total_anomalies": 3,
+    "total_anomalies": 4,
     "risk_count": 0,
     "positive_count": 3,
-    "medium_count": 0,
+    "medium_count": 1,
     "priority_alerts": [
       {
         "id": "VENUS_JUPITER_CONJUNCTION",
@@ -34,6 +34,13 @@
     ]
   },
   "anomalies": [
+    {
+      "id": "MOON_RAHU_CONJUNCTION",
+      "label": "Moon conjunct Rahu",
+      "description": "Amplified emotions. Potential for sharp moves.",
+      "severity": "MEDIUM",
+      "type": "planetary"
+    },
     {
       "id": "VENUS_JUPITER_CONJUNCTION",
       "label": "Venus conjunct Jupiter",

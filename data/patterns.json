@@ -1,11 +1,11 @@
 {
   "meta": {
-    "date": "2026-06-05",
-    "generated_at": "2026-06-05T06:56:48Z"
+    "date": "2026-06-07",
+    "generated_at": "2026-06-07T14:12:16Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
-    "moon_rashi": "Capricorn",
+    "moon_rashi": "Aquarius",
     "mars_rashi": "Aries",
     "mercury_rashi": "Gemini",
     "jupiter_rashi": "Cancer",
@@ -17,11 +17,11 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "Waning Gibbous",
-    "moon_nakshatra": "Shravana",
-    "day_ruler": "Venus",
+    "moon_nakshatra": "Shatabhisha",
+    "day_ruler": "Sun",
     "market_direction": "Neutral",
     "volatility_bias": "Medium",
-    "strongest_sector": "Pharma",
+    "strongest_sector": "Banking",
     "cosmo_score_bucket": "medium",
     "breadth_bucket": "neutral"
   },
@@ -30,8 +30,8 @@
     "status": "calculated",
     "similar_days_found": 10,
     "days_with_outcomes": 9,
-    "overall_accuracy_pct": 40.0,
-    "avg_stock_change_pct": 0.06,
+    "overall_accuracy_pct": 38.5,
+    "avg_stock_change_pct": 0.09,
     "direction_pattern": {
       "bullish": 0,
       "bearish": 1,
@@ -45,22 +45,28 @@
       },
       {
         "name": "Metals",
-        "avg_score": 55.4
+        "avg_score": 54.9
       },
       {
         "name": "Banking",
-        "avg_score": 52.5
+        "avg_score": 52.9
       },
       {
-        "name": "Infra",
-        "avg_score": 52.5
+        "name": "Pharma",
+        "avg_score": 52.3
       },
       {
-        "name": "Finance",
-        "avg_score": 51.4
+        "name": "Consumer",
+        "avg_score": 51.3
       }
     ],
     "recurring_stocks": [
+      {
+        "ticker": "DLF",
+        "appearances": 3,
+        "accuracy_pct": 66.7,
+        "avg_change_pct": 0.51
+      },
       {
         "ticker": "ASIANPAINT",
         "appearances": 2,
@@ -68,40 +74,34 @@
         "avg_change_pct": 0.08
       },
       {
-        "ticker": "DLF",
-        "appearances": 4,
-        "accuracy_pct": 50.0,
-        "avg_change_pct": 0.32
-      },
-      {
         "ticker": "BAJAJ-AUTO",
-        "appearances": 5,
-        "accuracy_pct": 40.0,
-        "avg_change_pct": -0.02
+        "appearances": 4,
+        "accuracy_pct": 25.0,
+        "avg_change_pct": -0.07
       }
     ],
     "moon_phase_pattern": {
-      "Waning Gibbous": 3,
+      "Waning Gibbous": 4,
+      "First Quarter": 3,
       "Waxing Gibbous": 1,
-      "Full Moon": 1,
-      "First Quarter": 4
+      "Full Moon": 1
     }
   },
   "narratives": [
-    "On 10 similar sky conditions in history, Cosmo's top stock calls were correct 40.0% of the time.",
+    "On 10 similar sky conditions in history, Cosmo's top stock calls were correct 38.5% of the time.",
     "Market was Neutral on most similar past days (0B / 1Bear / 8N).",
     "Strongest sectors on similar days: IT, Metals, Banking.",
-    "Top flagged stocks gained an average of 0.06% next day on similar conditions.",
-    "Mars in Aries + Day of Venus is the dominant sky signature today."
+    "Top flagged stocks gained an average of 0.09% next day on similar conditions.",
+    "Mars in Aries + Day of Sun is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-06-05",
+      "date": "2026-06-07",
       "similarity_pct": 100.0,
-      "cosmo_score": 63.2,
+      "cosmo_score": 57.4,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Venus",
-      "strongest_sector": "Pharma",
+      "day_ruler": "Sun",
+      "strongest_sector": "Banking",
       "market_direction": "Neutral",
       "outcome_accuracy": null,
       "explanation": {
@@ -117,14 +117,14 @@
       }
     },
     {
-      "date": "2026-06-04",
+      "date": "2026-06-05",
       "similarity_pct": 85.7,
-      "cosmo_score": 58.7,
+      "cosmo_score": 63.2,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "Consumer",
+      "day_ruler": "Venus",
+      "strongest_sector": "Pharma",
       "market_direction": "Neutral",
-      "outcome_accuracy": 100.0,
+      "outcome_accuracy": 0.0,
       "explanation": {
         "similarity_pct": 85.7,
         "matched": [
@@ -135,7 +135,8 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Jupiter \u2192 now Venus"
+          "Day ruler: Venus \u2192 now Sun",
+          "Moon in: Capricorn \u2192 now Aquarius"
         ]
       }
     },
@@ -158,8 +159,32 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mars \u2192 now Venus",
-          "Moon in: Sagittarius \u2192 now Capricorn"
+          "Day ruler: Mars \u2192 now Sun",
+          "Moon in: Sagittarius \u2192 now Aquarius"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-04",
+      "similarity_pct": 82.1,
+      "cosmo_score": 58.7,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Jupiter",
+      "strongest_sector": "Consumer",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 100.0,
+      "explanation": {
+        "similarity_pct": 82.1,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Jupiter \u2192 now Sun",
+          "Moon in: Capricorn \u2192 now Aquarius"
         ]
       }
     },
@@ -182,33 +207,8 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mercury \u2192 now Venus",
-          "Moon in: Sagittarius \u2192 now Capricorn"
-        ]
-      }
-    },
-    {
-      "date": "2026-05-29",
-      "similarity_pct": 69.6,
-      "cosmo_score": 49.6,
-      "moon_phase": "Waxing Gibbous",
-      "day_ruler": "Venus",
-      "strongest_sector": "IT",
-      "market_direction": "Neutral",
-      "outcome_accuracy": 0.0,
-      "explanation": {
-        "similarity_pct": 69.6,
-        "matched": [
-          "Mars in Aries",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Day ruler Venus",
-          "Mercury retrograde False"
-        ],
-        "different": [
-          "Jupiter in: Gemini \u2192 now Cancer",
-          "Moon phase: Waxing Gibbous \u2192 now Waning Gibbous",
-          "Moon in: Libra \u2192 now Capricorn"
+          "Day ruler: Mercury \u2192 now Sun",
+          "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
     }
