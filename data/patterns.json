@@ -1,7 +1,7 @@
 {
   "meta": {
-    "date": "2026-06-07",
-    "generated_at": "2026-06-07T14:12:16Z"
+    "date": "2026-06-08",
+    "generated_at": "2026-06-08T07:20:53Z"
   },
   "today_conditions": {
     "sun_rashi": "Taurus",
@@ -17,55 +17,55 @@
     "jupiter_retro": false,
     "saturn_retro": false,
     "moon_phase": "Waning Gibbous",
-    "moon_nakshatra": "Shatabhisha",
-    "day_ruler": "Sun",
-    "market_direction": "Neutral",
+    "moon_nakshatra": "Purva Bhadrapada",
+    "day_ruler": "Moon",
+    "market_direction": "Bearish",
     "volatility_bias": "Medium",
-    "strongest_sector": "Banking",
+    "strongest_sector": "Pharma",
     "cosmo_score_bucket": "medium",
-    "breadth_bucket": "neutral"
+    "breadth_bucket": "bear"
   },
   "similar_days_found": 10,
   "patterns": {
     "status": "calculated",
     "similar_days_found": 10,
     "days_with_outcomes": 9,
-    "overall_accuracy_pct": 38.5,
-    "avg_stock_change_pct": 0.09,
+    "overall_accuracy_pct": 30.8,
+    "avg_stock_change_pct": -0.05,
     "direction_pattern": {
-      "bullish": 0,
+      "bullish": 1,
       "bearish": 1,
-      "neutral": 8,
+      "neutral": 7,
       "dominant": "Neutral"
     },
     "top_sectors_on_similar_days": [
       {
         "name": "IT",
-        "avg_score": 59.6
-      },
-      {
-        "name": "Metals",
-        "avg_score": 54.9
+        "avg_score": 60.3
       },
       {
         "name": "Banking",
-        "avg_score": 52.9
+        "avg_score": 54.4
+      },
+      {
+        "name": "Metals",
+        "avg_score": 53.5
       },
       {
         "name": "Pharma",
-        "avg_score": 52.3
+        "avg_score": 53.5
       },
       {
-        "name": "Consumer",
-        "avg_score": 51.3
+        "name": "Finance",
+        "avg_score": 52.2
       }
     ],
     "recurring_stocks": [
       {
-        "ticker": "DLF",
-        "appearances": 3,
-        "accuracy_pct": 66.7,
-        "avg_change_pct": 0.51
+        "ticker": "ADANIPORTS",
+        "appearances": 2,
+        "accuracy_pct": 50.0,
+        "avg_change_pct": 0.16
       },
       {
         "ticker": "ASIANPAINT",
@@ -75,34 +75,46 @@
       },
       {
         "ticker": "BAJAJ-AUTO",
-        "appearances": 4,
-        "accuracy_pct": 25.0,
-        "avg_change_pct": -0.07
+        "appearances": 3,
+        "accuracy_pct": 33.3,
+        "avg_change_pct": -0.11
+      },
+      {
+        "ticker": "PIDILITIND",
+        "appearances": 2,
+        "accuracy_pct": 0.0,
+        "avg_change_pct": -0.39
+      },
+      {
+        "ticker": "DLF",
+        "appearances": 2,
+        "accuracy_pct": 0.0,
+        "avg_change_pct": -0.02
       }
     ],
     "moon_phase_pattern": {
-      "Waning Gibbous": 4,
-      "First Quarter": 3,
+      "Waning Gibbous": 5,
+      "Full Moon": 1,
       "Waxing Gibbous": 1,
-      "Full Moon": 1
+      "First Quarter": 2
     }
   },
   "narratives": [
-    "On 10 similar sky conditions in history, Cosmo's top stock calls were correct 38.5% of the time.",
-    "Market was Neutral on most similar past days (0B / 1Bear / 8N).",
-    "Strongest sectors on similar days: IT, Metals, Banking.",
-    "Top flagged stocks gained an average of 0.09% next day on similar conditions.",
-    "Mars in Aries + Day of Sun is the dominant sky signature today."
+    "On 10 similar sky conditions in history, Cosmo's top stock calls were correct 30.8% of the time.",
+    "Market was Neutral on most similar past days (1B / 1Bear / 7N).",
+    "Strongest sectors on similar days: IT, Banking, Metals.",
+    "Top flagged stocks lost an average of 0.05% next day on similar conditions.",
+    "Mars in Aries + Day of Moon is the dominant sky signature today."
   ],
   "similar_days": [
     {
-      "date": "2026-06-07",
+      "date": "2026-06-08",
       "similarity_pct": 100.0,
-      "cosmo_score": 57.4,
+      "cosmo_score": 51.4,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Sun",
-      "strongest_sector": "Banking",
-      "market_direction": "Neutral",
+      "day_ruler": "Moon",
+      "strongest_sector": "Pharma",
+      "market_direction": "Bearish",
       "outcome_accuracy": null,
       "explanation": {
         "similarity_pct": 100.0,
@@ -117,62 +129,14 @@
       }
     },
     {
-      "date": "2026-06-05",
-      "similarity_pct": 85.7,
-      "cosmo_score": 63.2,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Venus",
-      "strongest_sector": "Pharma",
-      "market_direction": "Neutral",
-      "outcome_accuracy": 0.0,
-      "explanation": {
-        "similarity_pct": 85.7,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Venus \u2192 now Sun",
-          "Moon in: Capricorn \u2192 now Aquarius"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-02",
-      "similarity_pct": 83.0,
-      "cosmo_score": 53.3,
-      "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mars",
-      "strongest_sector": "IT",
-      "market_direction": "Neutral",
-      "outcome_accuracy": 100.0,
-      "explanation": {
-        "similarity_pct": 83.0,
-        "matched": [
-          "Mars in Aries",
-          "Jupiter in Cancer",
-          "Saturn in Pisces",
-          "Sun in Taurus",
-          "Moon phase Waning Gibbous"
-        ],
-        "different": [
-          "Day ruler: Mars \u2192 now Sun",
-          "Moon in: Sagittarius \u2192 now Aquarius"
-        ]
-      }
-    },
-    {
-      "date": "2026-06-04",
+      "date": "2026-06-03",
       "similarity_pct": 82.1,
-      "cosmo_score": 58.7,
+      "cosmo_score": 47.8,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Jupiter",
-      "strongest_sector": "Consumer",
-      "market_direction": "Neutral",
-      "outcome_accuracy": 100.0,
+      "day_ruler": "Mercury",
+      "strongest_sector": "IT",
+      "market_direction": "Bearish",
+      "outcome_accuracy": null,
       "explanation": {
         "similarity_pct": 82.1,
         "matched": [
@@ -183,22 +147,22 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Jupiter \u2192 now Sun",
-          "Moon in: Capricorn \u2192 now Aquarius"
+          "Day ruler: Mercury \u2192 now Moon",
+          "Moon in: Sagittarius \u2192 now Aquarius"
         ]
       }
     },
     {
-      "date": "2026-06-03",
-      "similarity_pct": 75.0,
-      "cosmo_score": 47.8,
+      "date": "2026-06-07",
+      "similarity_pct": 82.1,
+      "cosmo_score": 57.4,
       "moon_phase": "Waning Gibbous",
-      "day_ruler": "Mercury",
-      "strongest_sector": "IT",
-      "market_direction": "Bearish",
-      "outcome_accuracy": null,
+      "day_ruler": "Sun",
+      "strongest_sector": "Banking",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 50.0,
       "explanation": {
-        "similarity_pct": 75.0,
+        "similarity_pct": 82.1,
         "matched": [
           "Mars in Aries",
           "Jupiter in Cancer",
@@ -207,8 +171,55 @@
           "Moon phase Waning Gibbous"
         ],
         "different": [
-          "Day ruler: Mercury \u2192 now Sun",
+          "Day ruler: Sun \u2192 now Moon"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-02",
+      "similarity_pct": 81.2,
+      "cosmo_score": 53.3,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Mars",
+      "strongest_sector": "IT",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 100.0,
+      "explanation": {
+        "similarity_pct": 81.2,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Mars \u2192 now Moon",
           "Moon in: Sagittarius \u2192 now Aquarius"
+        ]
+      }
+    },
+    {
+      "date": "2026-06-05",
+      "similarity_pct": 81.2,
+      "cosmo_score": 63.2,
+      "moon_phase": "Waning Gibbous",
+      "day_ruler": "Venus",
+      "strongest_sector": "Pharma",
+      "market_direction": "Neutral",
+      "outcome_accuracy": 0.0,
+      "explanation": {
+        "similarity_pct": 81.2,
+        "matched": [
+          "Mars in Aries",
+          "Jupiter in Cancer",
+          "Saturn in Pisces",
+          "Sun in Taurus",
+          "Moon phase Waning Gibbous"
+        ],
+        "different": [
+          "Day ruler: Venus \u2192 now Moon",
+          "Moon in: Capricorn \u2192 now Aquarius"
         ]
       }
     }

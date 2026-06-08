@@ -1,30 +1,30 @@
 {
   "meta": {
-    "generated_at": "2026-06-07T14:12:16Z",
-    "total_days": 13,
+    "generated_at": "2026-06-08T07:20:53Z",
+    "total_days": 14,
     "version": "1.0"
   },
   "statistics": {
-    "total_days": 13,
-    "days_with_outcomes": 12,
-    "overall_accuracy_pct": 39.4,
+    "total_days": 14,
+    "days_with_outcomes": 13,
+    "overall_accuracy_pct": 40.3,
     "sector_avg_scores": {
-      "IT": 59.6,
+      "IT": 58.2,
       "Metals": 56.2,
-      "Banking": 54.5,
       "Infra": 54.0,
-      "Pharma": 53.7,
+      "Banking": 54.0,
+      "Pharma": 53.3,
       "Finance": 51.8,
-      "Consumer": 51.7,
       "Auto": 51.6,
       "Energy": 51.5,
-      "FMCG": 50.3
+      "Consumer": 50.0,
+      "FMCG": 48.4
     },
     "moon_phase_accuracy": {
       "First Quarter": 46.7,
       "Waxing Gibbous": 0.0,
       "Full Moon": 0.0,
-      "Waning Gibbous": 66.7
+      "Waning Gibbous": 62.5
     },
     "day_ruler_accuracy": {
       "Saturn": 0.0,
@@ -37,10 +37,10 @@
     },
     "cosmo_score_accuracy": {
       "high": 25.0,
-      "medium": 54.8,
+      "medium": 54.2,
       "low": 0.0
     },
-    "generated_at": "2026-06-07T14:12:16Z"
+    "generated_at": "2026-06-08T07:20:53Z"
   },
   "anomalies": [
     {
@@ -3864,6 +3864,288 @@
       ],
       "nifty50": 23366.7,
       "nifty50_change_pct": -0.21,
+      "outcomes": {
+        "status": "calculated",
+        "next_date": "2026-06-08",
+        "stocks": {
+          "ADANIPORTS": {
+            "entry_price": 1824.2,
+            "next_price": 1830.0,
+            "change_pct": 0.32,
+            "predicted": "Bullish",
+            "actual": "Bullish",
+            "correct": true,
+            "next_date": "2026-06-08"
+          },
+          "PIDILITIND": {
+            "entry_price": 1476.6,
+            "next_price": 1469.3,
+            "change_pct": -0.49,
+            "predicted": "Bullish",
+            "actual": "Bearish",
+            "correct": false,
+            "next_date": "2026-06-08"
+          }
+        },
+        "accuracy_pct": 50.0,
+        "correct_calls": 1,
+        "total_calls": 2
+      }
+    },
+    {
+      "date": "2026-06-08",
+      "day_cosmo_score": 51.4,
+      "market_direction": "Bearish",
+      "volatility_bias": "Medium",
+      "risk_level": "High",
+      "strongest_sector": "Pharma",
+      "weakest_sector": "Metals",
+      "moon_phase": "Waning Gibbous",
+      "moon_phase_emoji": "\ud83c\udf16",
+      "day_ruler": "Moon",
+      "astro_score": 72,
+      "retrograde_planets": [
+        "Rahu",
+        "Ketu"
+      ],
+      "planets": {
+        "Sun": {
+          "rashi": "Taurus",
+          "nakshatra": "Rohini",
+          "retrograde": false
+        },
+        "Moon": {
+          "rashi": "Aquarius",
+          "nakshatra": "Purva Bhadrapada",
+          "retrograde": false
+        },
+        "Mars": {
+          "rashi": "Aries",
+          "nakshatra": "Bharani",
+          "retrograde": false
+        },
+        "Mercury": {
+          "rashi": "Gemini",
+          "nakshatra": "Ardra",
+          "retrograde": false
+        },
+        "Jupiter": {
+          "rashi": "Cancer",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Venus": {
+          "rashi": "Gemini",
+          "nakshatra": "Punarvasu",
+          "retrograde": false
+        },
+        "Saturn": {
+          "rashi": "Pisces",
+          "nakshatra": "Revati",
+          "retrograde": false
+        },
+        "Rahu": {
+          "rashi": "Aquarius",
+          "nakshatra": "Shatabhisha",
+          "retrograde": true
+        },
+        "Ketu": {
+          "rashi": "Leo",
+          "nakshatra": "Magha",
+          "retrograde": true
+        }
+      },
+      "conjunctions": [
+        {
+          "planets": [
+            "Jupiter",
+            "Venus"
+          ],
+          "orb": 1.49
+        }
+      ],
+      "aspects": [
+        {
+          "planets": [
+            "Sun",
+            "Moon"
+          ],
+          "aspect": "Square",
+          "orb": 1.33
+        },
+        {
+          "planets": [
+            "Sun",
+            "Saturn"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.7
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mars"
+          ],
+          "aspect": "Sextile",
+          "orb": 1.05
+        },
+        {
+          "planets": [
+            "Moon",
+            "Mercury"
+          ],
+          "aspect": "Trine",
+          "orb": 5.77
+        },
+        {
+          "planets": [
+            "Moon",
+            "Venus"
+          ],
+          "aspect": "Trine",
+          "orb": 7.79
+        },
+        {
+          "planets": [
+            "Mars",
+            "Mercury"
+          ],
+          "aspect": "Sextile",
+          "orb": 4.72
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Saturn"
+          ],
+          "aspect": "Square",
+          "orb": 2.4
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Rahu"
+          ],
+          "aspect": "Trine",
+          "orb": 6.65
+        },
+        {
+          "planets": [
+            "Mercury",
+            "Ketu"
+          ],
+          "aspect": "Sextile",
+          "orb": 6.65
+        },
+        {
+          "planets": [
+            "Rahu",
+            "Ketu"
+          ],
+          "aspect": "Opposition",
+          "orb": 0.0
+        }
+      ],
+      "breadth_ratio": 28.2,
+      "advancing": 22,
+      "declining": 56,
+      "top_sectors": [
+        {
+          "name": "Pharma",
+          "cosmo_score": 51.9,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "IT",
+          "cosmo_score": 49.5,
+          "astro_bias": "Neutral"
+        },
+        {
+          "name": "Banking",
+          "cosmo_score": 49.2,
+          "astro_bias": "Bullish"
+        },
+        {
+          "name": "FMCG",
+          "cosmo_score": 46.5,
+          "astro_bias": "Strong Bullish"
+        },
+        {
+          "name": "Consumer",
+          "cosmo_score": 43.3,
+          "astro_bias": "Strong Bullish"
+        }
+      ],
+      "top_stocks": [
+        {
+          "ticker": "ASIANPAINT",
+          "sector": "Consumer",
+          "cosmo_score": 71.5,
+          "direction": "Bullish",
+          "price": 2648.5,
+          "rsi": 51.84,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "PIDILITIND",
+          "sector": "Consumer",
+          "cosmo_score": 71.5,
+          "direction": "Bullish",
+          "price": 1469.3,
+          "rsi": 52.6,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "ASTRO_TREND_ALIGNED",
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "TECHM",
+          "sector": "IT",
+          "cosmo_score": 66.7,
+          "direction": "Neutral",
+          "price": 1508.7,
+          "rsi": 57.93,
+          "trend": "Strong Uptrend",
+          "rule_flags": []
+        },
+        {
+          "ticker": "ADANIPORTS",
+          "sector": "Infra",
+          "cosmo_score": 66.6,
+          "direction": "Bullish",
+          "price": 1830.0,
+          "rsi": 63.73,
+          "trend": "Strong Uptrend",
+          "rule_flags": [
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        },
+        {
+          "ticker": "TITAN",
+          "sector": "Consumer",
+          "cosmo_score": 65.0,
+          "direction": "Bullish",
+          "price": 4213.9,
+          "rsi": 58.09,
+          "trend": "Recovery",
+          "rule_flags": [
+            "RSI_ASTRO_SWEET_SPOT"
+          ]
+        }
+      ],
+      "key_signals": [
+        "Retrograde: Rahu, Ketu",
+        "Moon moving Aquarius to Aries within 3 days",
+        "Waning Gibbous - Consolidation phase. Selective entries only.",
+        "Day of Moon - favors FMCG, Consumer"
+      ],
+      "nifty50": 23247.65,
+      "nifty50_change_pct": -0.51,
       "outcomes": {
         "status": "pending"
       }
