@@ -1,13 +1,13 @@
 {
   "meta": {
-    "date": "2026-06-08",
-    "generated_at": "2026-06-08T07:20:53Z"
+    "date": "2026-06-09",
+    "generated_at": "2026-06-09T06:38:42Z"
   },
   "summary": {
     "overall_level": "POSITIVE ANOMALY",
-    "total_anomalies": 3,
+    "total_anomalies": 4,
     "risk_count": 0,
-    "positive_count": 3,
+    "positive_count": 4,
     "medium_count": 0,
     "priority_alerts": [
       {
@@ -54,6 +54,13 @@
       "description": "Jupiter, Venus, Mercury all direct. Clear positive energy.",
       "severity": "POSITIVE",
       "type": "planetary"
+    },
+    {
+      "id": "UNUSUALLY_HIGH_BREADTH",
+      "label": "Unusually broad advance (76.9% stocks advancing)",
+      "description": "Market-wide buying. Strong bullish breadth anomaly.",
+      "severity": "POSITIVE",
+      "value": 76.9
     }
   ]
 }

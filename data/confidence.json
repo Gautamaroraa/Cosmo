@@ -1,17 +1,16 @@
 {
   "meta": {
-    "date": "2026-06-08",
-    "generated_at": "2026-06-08T07:20:53Z",
-    "total_days": 14
+    "date": "2026-06-09",
+    "generated_at": "2026-06-09T06:38:42Z",
+    "total_days": 15
   },
   "today": {
-    "confidence_score": 19.7,
-    "confidence_level": "Very Low Confidence",
+    "confidence_score": 51.0,
+    "confidence_level": "Low Confidence",
     "factors": [
-      "Score 50-64 range has historically been 0.0% accurate",
-      "Waning Gibbous has been 62.5% accurate historically",
-      "Day of Moon has been 25.0% accurate historically",
-      "On 10 similar sky days, accuracy was 30.8%"
+      "Score 65-79 range has historically been 43.5% accurate",
+      "Day of Mars has been 100.0% accurate historically",
+      "On 10 similar sky days, accuracy was 53.8%"
     ],
     "warnings": [
       "High risk day \u2014 use tighter stop losses"
@@ -27,10 +26,10 @@
         "correct_calls": 0
       },
       "65-79": {
-        "accuracy_pct": 40.0,
-        "avg_change_pct": 0.12,
-        "sample_size": 20,
-        "correct_calls": 8
+        "accuracy_pct": 43.5,
+        "avg_change_pct": 0.14,
+        "sample_size": 23,
+        "correct_calls": 10
       },
       "50-64": {
         "accuracy_pct": 0.0,
@@ -68,8 +67,8 @@
         "days": 1
       },
       "Waning Gibbous": {
-        "avg_accuracy": 62.5,
-        "days": 4
+        "avg_accuracy": 63.3,
+        "days": 5
       }
     },
     "day_ruler": {
@@ -82,8 +81,8 @@
         "days": 2
       },
       "Moon": {
-        "avg_accuracy": 25.0,
-        "days": 2
+        "avg_accuracy": 38.9,
+        "days": 3
       },
       "Mars": {
         "avg_accuracy": 100.0,
@@ -111,13 +110,13 @@
   },
   "refinement_suggestions": {
     "status": "insufficient_data",
-    "message": "Need 15 days with outcomes. Have 13."
+    "message": "Need 15 days with outcomes. Have 14."
   },
   "data_quality": {
-    "days_total": 14,
-    "days_with_outcomes": 13,
+    "days_total": 15,
+    "days_with_outcomes": 14,
     "calibration_ready": true,
-    "refinement_ready": false,
+    "refinement_ready": true,
     "full_confidence_ready": false
   }
 }
